@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         SetAnimationStates();
+
+        animator.SetBool("walking", true);
     }
 
     void SetAnimationStates()
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
 
     void Walk()
     {
+        /*
         if (ishurting)
         {
             animator.SetBool("walking", false);
@@ -55,6 +58,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("walking", true);
 
         }
+        */
 
         if (Input.GetKey(KeyCode.A) && !isEating)
         {

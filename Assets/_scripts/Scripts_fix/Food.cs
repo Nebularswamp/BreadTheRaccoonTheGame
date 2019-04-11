@@ -18,6 +18,7 @@ public class Food : MonoBehaviour
         if (other.tag == "Player")
         {
             inRange = true;
+            Debug.Log("Food In Range");
             
         }
     }
@@ -43,6 +44,8 @@ public class Food : MonoBehaviour
             PlayerStats.instance.health += healthGain;
             PlayerStats.instance.UpdateStats();
             PlayerController.instance.isEating = true;
+
+            Destroy(gameObject);
         }
     }
 }
