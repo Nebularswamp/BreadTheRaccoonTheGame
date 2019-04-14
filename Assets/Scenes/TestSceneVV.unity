@@ -2535,6 +2535,7 @@ GameObject:
   - component: {fileID: 1044751608}
   - component: {fileID: 1044751610}
   - component: {fileID: 1044751609}
+  - component: {fileID: 1044751611}
   m_Layer: 5
   m_Name: Hunger
   m_TagString: Untagged
@@ -2581,11 +2582,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -2598,6 +2599,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044751607}
   m_CullTransparentMesh: 0
+--- !u!114 &1044751611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044751607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe5c8da7d75348c5b68ad26e9da1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1064586894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2609,6 +2622,7 @@ GameObject:
   - component: {fileID: 1064586895}
   - component: {fileID: 1064586897}
   - component: {fileID: 1064586896}
+  - component: {fileID: 1064586898}
   m_Layer: 5
   m_Name: Sanity
   m_TagString: Untagged
@@ -2655,11 +2669,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -2672,6 +2686,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064586894}
   m_CullTransparentMesh: 0
+--- !u!114 &1064586898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064586894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a0ef01599a4863b7019969ede8263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1147487648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2749,6 +2775,7 @@ GameObject:
   - component: {fileID: 1610865469}
   - component: {fileID: 1610865471}
   - component: {fileID: 1610865470}
+  - component: {fileID: 1610865472}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -2795,13 +2822,13 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
-  m_FillClockwise: 1
+  m_FillClockwise: 0
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
 --- !u!222 &1610865471
@@ -2812,6 +2839,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610865468}
   m_CullTransparentMesh: 0
+--- !u!114 &1610865472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610865468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fca3b661fc9748b998f089f353a8b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1668842200
 GameObject:
   m_ObjectHideFlags: 0
