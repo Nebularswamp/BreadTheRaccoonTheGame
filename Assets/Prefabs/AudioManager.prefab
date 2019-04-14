@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3490266016045315615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3490266016045315611}
+  - component: {fileID: 3490266016045315612}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3490266016045315611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490266016045315615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.61, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3490266016045315612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490266016045315615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455a50ad5bdecd345ae8f6ff12406377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 0}
+  sounds:
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 28e82edcad3492b479054474ed9a7702, type: 3}
+    loop: 0
+    mixergroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Eat Fresh
+    clip: {fileID: 8300000, guid: c121ce3a7bca34f44a4f3ea999d75cb8, type: 3}
+    loop: 0
+    mixergroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Eat Molded
+    clip: {fileID: 8300000, guid: 485639109ca19004bb94bb1ef3301a53, type: 3}
+    loop: 0
+    mixergroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Eat Rotten
+    clip: {fileID: 8300000, guid: 7c76f435d24abd0499d172fb6894ec4d, type: 3}
+    loop: 0
+    mixergroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Take Damage
+    clip: {fileID: 8300000, guid: ba19f21a425955e4293ebd86224ec5bf, type: 3}
+    loop: 0
+    mixergroup: {fileID: 0}
+    source: {fileID: 0}
