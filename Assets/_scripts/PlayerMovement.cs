@@ -16,8 +16,8 @@ public class PlayerMovement : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        isAnimation = true;
-        StartCoroutine(Animation());
+        //isAnimation = true;
+        //StartCoroutine(Animation());
     }
 
     void Update()

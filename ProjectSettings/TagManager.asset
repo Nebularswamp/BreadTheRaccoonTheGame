@@ -9,6 +9,7 @@ TagManager:
   - ChocoPie
   - glass
   - Nails
+  - Food
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - 
   - 
   - BlockingLayer
-  - 
-  - 
+  - Player
+  - Floor
   - 
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 3689331345
+    locked: 0
   - name: Floor
     uniqueID: 2635456437
     locked: 0
@@ -57,7 +61,4 @@ TagManager:
     locked: 0
   - name: Units
     uniqueID: 1987023089
-    locked: 0
-  - name: Player
-    uniqueID: 3689331345
     locked: 0
