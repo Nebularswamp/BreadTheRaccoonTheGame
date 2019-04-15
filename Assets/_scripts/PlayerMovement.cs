@@ -5,24 +5,26 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
-    public GameObject dialogText;
+
+    [HideInInspector]
+    public bool isAnimation;
 
     Rigidbody2D myRigidbody;
     Vector3 movement;
     Animator animator;
-    bool isAnimation = false;
+    PlayerAutoMotor autoMotor;
+
 
     void Start()
     {
+        autoMotor = GetComponent<PlayerAutoMotor>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        //isAnimation = true;
-        //StartCoroutine(Animation());
+        isAnimation = true;
     }
 
     void Update()
     {
-
         if (!isAnimation)
         {
             movement = Vector3.zero;
@@ -58,19 +60,17 @@ public class PlayerMovement : MonoBehaviour
         myRigidbody.MovePosition(transform.position + movement * speed * Time.deltaTime);
     }
 
-    IEnumerator Animation()
+    public void MoveMotor(Vector3 _movement, float time)
     {
-        movement.x = 1.0f;
-        yield return new WaitForSeconds(1.3f);
-        movement.x = -1.0f;
-        yield return new WaitForSeconds(1.35f);
-        movement.x = 0;
-        movement.y = -1.0f;
-        yield return new WaitForSeconds(0.6f);
-        movement.y = 0f;
-        dialogText.SetActive(true);
-        yield return new WaitForSeconds(2f);
-        dialogText.SetActive(false);
-        isAnimation = false;
+        movement = _movement;
+        StartCoroutine(MoveMotor(time));
+    }
+
+    IEnumerator MoveMotor(float time)
+    {
+        yield return new WaitForSeconds(time);
+        movement = Vector3.zero;
+        autoMotor.isMoving = false;
+        ScriptLocator.scriptParser.CommandRun();
     }
 }
