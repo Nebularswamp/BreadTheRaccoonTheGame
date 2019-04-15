@@ -1,0 +1,1611 @@
+fileFormatVersion: 2
+guid: 02bed3b9b6734cf49a6470a3eec362a2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_0
+    21300002: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_1
+    21300004: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_2
+    21300006: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_3
+    21300008: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_4
+    21300010: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_5
+    21300012: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_6
+    21300014: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_7
+    21300016: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_8
+    21300018: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_9
+    21300020: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_10
+    21300022: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_11
+    21300024: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_12
+    21300026: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_13
+    21300028: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_14
+    21300030: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_15
+    21300032: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_16
+    21300034: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_17
+    21300036: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_18
+    21300038: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_19
+    21300040: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_20
+    21300042: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_21
+    21300044: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_22
+    21300046: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_23
+    21300048: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_24
+    21300050: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_25
+    21300052: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_26
+    21300054: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_27
+    21300056: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_28
+    21300058: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_29
+    21300060: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_30
+    21300062: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_31
+    21300064: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_32
+    21300066: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_33
+    21300068: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_34
+    21300070: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_35
+    21300072: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_36
+    21300074: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_37
+    21300076: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_38
+    21300078: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_39
+    21300080: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_40
+    21300082: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_41
+    21300084: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_42
+    21300086: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_43
+    21300088: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_44
+    21300090: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_45
+    21300092: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_46
+    21300094: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_47
+    21300096: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_48
+    21300098: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_49
+    21300100: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_50
+    21300102: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_51
+    21300104: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_52
+    21300106: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_53
+    21300108: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_54
+    21300110: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_55
+    21300112: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_56
+    21300114: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_57
+    21300116: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_58
+    21300118: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_59
+    21300120: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_60
+    21300122: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_61
+    21300124: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_62
+    21300126: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_63
+    21300128: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_64
+    21300130: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_65
+    21300132: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_66
+    21300134: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_67
+    21300136: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_68
+    21300138: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_69
+    21300140: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_70
+    21300142: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_71
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390f469bb5cf7004ebfa9c012c46d2e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50951a30c941bd4ba7d8a3d5b98129c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d770bf37511ffcb498c1f37e29b6a741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0ba1b061ed2ed4b98d2df7fec4807d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e139e0da173d17a4f8f8a11b211c6ca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 8448
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7195846d9a88af409478e62abac42da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059e2400f5b15bb4293cfb7e20ca464c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa0701e07173e45a1e5858e53eb962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a84f42f1088ec34cac6a70acf69a32f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164b5546f69286d4f9d0f1815dadccce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbdd81857ec4414fb3c9d863e64f2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 7680
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1230585e161024b4685db50857f8177e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c0146810a8dc04394fe2b8c73f1e97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deca67096f0996479046ba28732d85e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ef48a340a26345a498695f268091f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14ee18027ded6742b12ab35ee931a55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3824bf707a0594395a6430195036ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6912
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850734555807d24b98eb1df5d6f49ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249ceb4fca7bfbe4493f9e5a3baa294c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2e504cdb088344096c37ecfec896f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dee2d0d3530da40969b78b39fb6fc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cb9c834abe3464c978537d34d0910b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673b67a64e4a98946828fbe2aa9d0e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6144
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17572e2782863ce41be23ea37a8706e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2701f0b84b3b146bef35f23c33e494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be96cebd031fdad4d98e2b7e711cba0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad743edf86b48448956eb443912df1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f7d39659bd60740b4db376061c89a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d472a0bd4e61b2e4fb0b9faaa9fb1118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5376
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f22fc925e7427d4eb7ca910125877c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4ed158095ec4640aaec23e02d23f88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed59e493577ac49b908c929d4d5ba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfc184bf6dc225449646ea385d3b0af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1857da80673d954b9a7854018e0473d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e797a1ac491057443a601827723bd00e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4608
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582fe53ec197a7a4b8d32ffc8b015415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f346087e041d844913db4179cef8ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c21b781151939a4bb7600015a94f530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa8b8fd9a83ebc45bb37c6c60ed909f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e55aa6efdd03143a6799fc7f427742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b77e1037e4a0c4419ab7fe580a27cfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3840
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f4240f5fa529f4fb48ebd809f810a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0981d9fc52b65df4e91e901d29bfb743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13386ecd48a45b4e906e180c65318fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981af31fd19c824badab5f1b6e58f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094aa8323d6fe8e4e84adda446c9f42d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b54bab7f8117409b094f41938b837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3072
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e48979c2c98314fa3259e8b67f1877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6316121878c28d14d9a4eaf054f69f46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abfd58c191cdb342ba080e1f678bc27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476ebeef75566814181257b241adf410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04291679e52aa948b032164152aa986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3c8945a6ddea04a9e0aae76d36a3eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2304
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14819e87f6d171a488787455b9b9fb8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e47fb248d915714aa65b209832f16dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52de92a30a99654f80ab9094f89141e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54ff9f4e026f44690248e18ca4e9ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2310c58c02115134ea30cb1665f3eb60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c9ff0d6ac5f334fb44ba5c32bd2e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1536
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c386fc07efbd2a488e82beedf5ade95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31e042a1eca7b4f955ca34dd22c83d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2ea8f549524af4a837add93a4acaac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aafb4c767120a4694ad7f008075adc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2cac9c93c9d234d90f45f49ae3c3b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902189cfabee777489481308789a4844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 768
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a8d93c0d7268458f1b8c73b053508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c17b41a5254b0042a39708da2c1a56b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fc2a5e75fe82f4daa335de624eef5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06320d254c861944aa891d38c7995690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcd39bbfabdfc142b63202012d3f5ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450373082b4ac834aa9ee3764d27da39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mountain-Sun-Sky-Grass-City-BG-Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ebbd4709ccbd438f7061416f589b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 22684e98d6ac782498bb039600eeaa79
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
