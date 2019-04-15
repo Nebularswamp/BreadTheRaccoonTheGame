@@ -4,12 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Floor
-  - Apple
-  - ChocoPie
-  - glass
-  - Nails
   - Food
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -22,7 +18,7 @@ TagManager:
   - BlockingLayer
   - Player
   - Floor
-  - 
+  - Items
   - 
   - 
   - 
@@ -47,9 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 3689331345
-    locked: 0
   - name: Floor
     uniqueID: 2635456437
     locked: 0
@@ -61,4 +54,10 @@ TagManager:
     locked: 0
   - name: Units
     uniqueID: 1987023089
+    locked: 0
+  - name: Items
+    uniqueID: 2219298079
+    locked: 0
+  - name: Player
+    uniqueID: 3689331345
     locked: 0

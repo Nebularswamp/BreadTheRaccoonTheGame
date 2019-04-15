@@ -9,7 +9,7 @@ public class ItemWiki : MonoBehaviour
     private void Start()
     {
         //For the int[], the represented statuses are health/hunger/sanity, in this specific order.
-        wiki.Add("apple_fresh", new int[] { 5, 10, 5 });
+        wiki.Add("apple_fresh", new int[] { 5, 20, 5 });
     }
 
     public static int[] ReturnEffects(string itemName)
