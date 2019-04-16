@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
     public GameObject instruction;
 
     public string itemName;
+    public Sprite itemSprite;
 
     bool interactable;
     public bool canPickUp;
@@ -16,6 +18,7 @@ public class Item : MonoBehaviour
     {
         interactable = false;
         instruction.SetActive(false);
+        itemSprite = GetComponent<SpriteRenderer>().sprite;
     }
 
     // Update is called once per frame
@@ -59,11 +62,43 @@ public class Item : MonoBehaviour
         if (gameObject.CompareTag("Food"))
         {
             int[] effects = ItemWiki.ReturnEffects(itemName);
+
             PlayerBehaviors.health += effects[0];
+            PlayerBehaviors.health = Mathf.Clamp(PlayerBehaviors.health, 0, 100);
+
             PlayerBehaviors.hunger += effects[1];
+            PlayerBehaviors.hunger = Mathf.Clamp(PlayerBehaviors.hunger, 0, 100);
+
             PlayerBehaviors.sanity += effects[2];
+            PlayerBehaviors.sanity = Mathf.Clamp(PlayerBehaviors.sanity, 0, 100);
+
             PlayerBehaviors.itemsAround.Remove(gameObject);
             DestroyItem();
+        }
+    }
+
+    public void AddToInventory()
+    {
+        if (gameObject.CompareTag("Food") || gameObject.CompareTag("Item"))
+        {
+            if(PlayerBehaviors.inventorySpace > 0)
+            {
+                //Item copy = new Item(); 
+                //copy.itemSprite = itemSprite;
+                
+                for (int i = 0; i < PlayerBehaviors.inventory.Length; i++)
+                {
+                    if (PlayerBehaviors.inventory[i] == null)
+                    {
+                        PlayerBehaviors.inventory[i] = itemSprite;
+                        PlayerBehaviors.inventorySpace -= 1;
+                        break;
+                    }
+                }
+                GameObject.Find("Inventory").GetComponent<Inventory>().UpdateInventory();
+                PlayerBehaviors.itemsAround.Remove(gameObject);
+                DestroyItem();
+            }
         }
     }
 }
