@@ -1,0 +1,17 @@
+label start:
+    mvMom "l1.5"
+    mvMom "d1.0"
+    mvMom "u0.3"
+    Mom "Good morning, Son!"
+    Mom "Get up!"
+    Mom "You were so excited "
+    Mom "I want you to behave yourself"
+    Player "Mom, Good morning!"
+    Player "I'll do my best."
+    mvPlayer "r1.0"
+    mvPlayer "l1.3"
+    mvPlayer "d1.3"
+    mvPlayer "u0.3"
+    Mom "Don't forget she invited you"
+    Player "Yes, Mom!"
+    return
