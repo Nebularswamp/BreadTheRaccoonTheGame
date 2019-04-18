@@ -29,7 +29,7 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
             interactable = true;
             instruction.SetActive(true);
@@ -39,7 +39,7 @@ public class Item : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
             interactable = false;
             instruction.SetActive(false);
@@ -81,17 +81,18 @@ public class Item : MonoBehaviour
     {
         if (gameObject.CompareTag("Food") || gameObject.CompareTag("Item"))
         {
-            if(PlayerBehaviors.inventorySpace > 0)
+            if(Inventory.inventorySpace > 0)
             {
                 //Item copy = new Item(); 
                 //copy.itemSprite = itemSprite;
                 
-                for (int i = 0; i < PlayerBehaviors.inventory.Length; i++)
+                for (int i = 0; i < Inventory.inventoryItemImage.Length; i++)
                 {
-                    if (PlayerBehaviors.inventory[i] == null)
+                    if (Inventory.inventoryItemImage[i] == null)
                     {
-                        PlayerBehaviors.inventory[i] = itemSprite;
-                        PlayerBehaviors.inventorySpace -= 1;
+                        Inventory.inventoryItemImage[i] = itemSprite;
+                        Inventory.inventoryItemName[i] = itemName;
+                        Inventory.inventorySpace -= 1;
                         break;
                     }
                 }

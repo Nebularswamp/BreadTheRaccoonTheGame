@@ -312,6 +312,7 @@ MonoBehaviour:
   - {fileID: 1552489633}
   - {fileID: 1446593241}
   - {fileID: 1617424117}
+  instruction: {fileID: 2039282508}
 --- !u!1 &414762157
 GameObject:
   m_ObjectHideFlags: 0

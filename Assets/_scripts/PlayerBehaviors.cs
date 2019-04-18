@@ -11,8 +11,6 @@ public class PlayerBehaviors : MonoBehaviour
 
     public static List<GameObject> itemsAround;
 
-    public static Sprite[] inventory;
-    public static int inventorySpace;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +19,8 @@ public class PlayerBehaviors : MonoBehaviour
         hunger = 50;
         sanity = 50;
 
-        inventorySpace = 4;
 
         itemsAround = new List<GameObject>();
-        inventory = new Sprite[4];
 
         InvokeRepeating("ReduceHunger", 0f, 3f);
     }
@@ -32,12 +28,12 @@ public class PlayerBehaviors : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !Inventory.inventoryOpened)
         {
             Interact();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && !Inventory.inventoryOpened)
         {
             PickUp();
         }
