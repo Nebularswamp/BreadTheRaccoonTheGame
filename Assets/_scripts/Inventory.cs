@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     public Image[] slots;
-    public GameObject instruction;
+
+    public static GameObject instruction;
 
     public static Sprite[] inventoryItemImage;
     public static string[] inventoryItemName;
@@ -17,6 +18,7 @@ public class Inventory : MonoBehaviour
     void Start()
     {
         instruction = GameObject.Find("Instructions");
+        HideInstruction();
         inventorySpace = 4;
         inventoryItemImage = new Sprite[inventorySpace];
         inventoryItemName = new string[inventorySpace];
@@ -61,5 +63,15 @@ public class Inventory : MonoBehaviour
                 slots[i].GetComponent<Image>().enabled = true;
             }
         }
+    }
+
+    public static void ShowInstruction()
+    {
+        instruction.SetActive(true);
+    }
+
+    public static void HideInstruction()
+    {
+        instruction.SetActive(false);
     }
 }

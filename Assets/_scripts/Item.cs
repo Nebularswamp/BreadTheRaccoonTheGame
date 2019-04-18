@@ -16,9 +16,10 @@ public class Item : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        print("Apple!");
         instruction = GameObject.Find("Instructions");
         interactable = false;
-        instruction.SetActive(false);
+        //instruction.SetActive(false);
         itemSprite = GetComponent<SpriteRenderer>().sprite;
     }
 
@@ -33,7 +34,8 @@ public class Item : MonoBehaviour
         if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
             interactable = true;
-            instruction.SetActive(true);
+            //instruction = GameObject.Find("Instructions");
+            Inventory.ShowInstruction();
             PlayerBehaviors.itemsAround.Add(gameObject);
         }
     }
@@ -43,7 +45,8 @@ public class Item : MonoBehaviour
         if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
             interactable = false;
-            instruction.SetActive(false);
+            //instruction = GameObject.Find("Instructions");
+            Inventory.HideInstruction();
             PlayerBehaviors.itemsAround.Remove(gameObject);
         }
     }
