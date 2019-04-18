@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Food
   - Item
-  - Damage
   layers:
   - Default
   - TransparentFX
@@ -47,14 +46,14 @@ TagManager:
   - name: Floor
     uniqueID: 2635456437
     locked: 0
+  - name: Traps
+    uniqueID: 1406824903
+    locked: 0
   - name: Pickups
     uniqueID: 685476693
     locked: 0
   - name: Units
     uniqueID: 1987023089
-    locked: 0
-  - name: Traps
-    uniqueID: 1406824903
     locked: 0
   - name: Items
     uniqueID: 2219298079

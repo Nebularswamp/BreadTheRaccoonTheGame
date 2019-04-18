@@ -14,15 +14,13 @@ public class PlayerMovement : MonoBehaviour
     Animator animator;
     PlayerAutoMotor autoMotor;
 
-    public static bool isHurt;
 
     void Start()
     {
         autoMotor = GetComponent<PlayerAutoMotor>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        isHurt = false;
-        //isAnimation = true;
+        isAnimation = true;
     }
 
     void Update()
@@ -34,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
             movement.y = Input.GetAxisRaw("Vertical");
         }
 
-        if(movement != Vector3.zero && isHurt == false)
+        if(movement != Vector3.zero)
         {
             MoveCharacter();
             animator.SetFloat("moveX", movement.x);
