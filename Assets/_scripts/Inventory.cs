@@ -16,6 +16,7 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instruction = GameObject.Find("Instructions");
         inventorySpace = 4;
         inventoryItemImage = new Sprite[inventorySpace];
         inventoryItemName = new string[inventorySpace];

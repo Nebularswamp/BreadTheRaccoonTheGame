@@ -26,6 +26,7 @@ public class Damage : MonoBehaviour
             StartCoroutine(TakeDamage());
             TakeEffect();
         }
+
     }
 
     public void TakeEffect()
@@ -46,7 +47,7 @@ public class Damage : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         PlayerMovement.isHurt = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.7f);
         PlayerMovement.isHurt = false;
     }
 }

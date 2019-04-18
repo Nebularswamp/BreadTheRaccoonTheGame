@@ -16,6 +16,7 @@ public class Item : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        instruction = GameObject.Find("Instructions");
         interactable = false;
         instruction.SetActive(false);
         itemSprite = GetComponent<SpriteRenderer>().sprite;
@@ -91,7 +92,7 @@ public class Item : MonoBehaviour
                     if (Inventory.inventoryItemImage[i] == null)
                     {
                         Inventory.inventoryItemImage[i] = itemSprite;
-                        Inventory.inventoryItemName[i] = itemName;
+                        Inventory.inventoryItemName[i] = itemName; 
                         Inventory.inventorySpace -= 1;
                         break;
                     }
