@@ -56,9 +56,33 @@ public class Item : MonoBehaviour
         return itemName;
     }
 
+    public void HideItem()
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+    }
+
+    public void ShowItem()
+    {
+        GetComponent<SpriteRenderer>().enabled = true;
+        GetComponent<Collider2D>().enabled = true;
+    }
+
     public void DestroyItem()
     {
         Destroy(gameObject);
+    }
+
+    public void RemoveItemFromItemsAround()
+    {
+        PlayerBehaviors.itemsAround.Remove(gameObject);
+    }
+
+    public void DropItem()
+    {
+        GameObject player = GameObject.Find("Player");
+        transform.position = player.transform.position;
+        ShowItem();
     }
 
     public void TakeEffect()
@@ -76,7 +100,6 @@ public class Item : MonoBehaviour
             PlayerBehaviors.sanity += effects[2];
             PlayerBehaviors.sanity = Mathf.Clamp(PlayerBehaviors.sanity, 0, 100);
 
-            PlayerBehaviors.itemsAround.Remove(gameObject);
             DestroyItem();
         }
     }
@@ -90,19 +113,19 @@ public class Item : MonoBehaviour
                 //Item copy = new Item(); 
                 //copy.itemSprite = itemSprite;
                 
-                for (int i = 0; i < Inventory.inventoryItemImage.Length; i++)
+                for (int i = 0; i < Inventory.inventory.Length; i++)
                 {
-                    if (Inventory.inventoryItemImage[i] == null)
+                    if (Inventory.inventory[i] == null)
                     {
-                        Inventory.inventoryItemImage[i] = itemSprite;
-                        Inventory.inventoryItemName[i] = itemName; 
+                        Inventory.inventory[i] = gameObject;
+                        //Inventory.inventoryItemName[i] = itemName; 
                         Inventory.inventorySpace -= 1;
                         break;
                     }
                 }
                 GameObject.Find("Inventory").GetComponent<Inventory>().UpdateInventory();
                 PlayerBehaviors.itemsAround.Remove(gameObject);
-                DestroyItem();
+                HideItem();
             }
         }
     }

@@ -52,6 +52,7 @@ public class PlayerBehaviors : MonoBehaviour
         for (int i = 0; i < itemsArray.Length; i++)
         {
             itemsArray[i].GetComponent<Item>().TakeEffect();
+            itemsArray[i].GetComponent<Item>().RemoveItemFromItemsAround();
         }
     }
 

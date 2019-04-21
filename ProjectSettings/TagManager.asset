@@ -7,6 +7,11 @@ TagManager:
   - Food
   - Item
   - Damage
+  - Floor
+  - ChocoPie
+  - Nails
+  - Apple
+  - glass
   layers:
   - Default
   - TransparentFX
@@ -61,4 +66,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3689331345
+    locked: 0
+  - name: Floating
+    uniqueID: 1854176633
     locked: 0

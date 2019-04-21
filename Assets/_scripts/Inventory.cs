@@ -9,42 +9,102 @@ public class Inventory : MonoBehaviour
 
     public static GameObject instruction;
 
-    public static Sprite[] inventoryItemImage;
-    public static string[] inventoryItemName;
+    //public static Sprite[] inventoryItemImage;
+    //public static string[] inventoryItemName;
+    public static GameObject[] inventory;
     public static int inventorySpace;
 
     public static bool inventoryOpened;
+
+    int slotSelected;
     // Start is called before the first frame update
     void Start()
     {
+        slotSelected = 0;
         instruction = GameObject.Find("Instructions");
         HideInstruction();
         inventorySpace = 4;
-        inventoryItemImage = new Sprite[inventorySpace];
-        inventoryItemName = new string[inventorySpace];
+        //inventoryItemImage = new Sprite[inventorySpace];
+        //inventoryItemName = new string[inventorySpace];
+        inventory = new GameObject[inventorySpace];
         inventoryOpened = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < slots.Length; i++)
-        {
-            print(slots[i]);
-        }
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             inventoryOpened = false;
             instruction.SetActive(false);
+            slotSelected = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && !inventoryOpened)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if(inventoryItemImage[0] != null)
+            if(inventory[0] != null)
             {
                 instruction.SetActive(true);
                 inventoryOpened = true;
+                slotSelected = 1;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            if (inventory[1] != null)
+            {
+                instruction.SetActive(true);
+                inventoryOpened = true;
+                slotSelected = 2;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            if (inventory[2] != null)
+            {
+                instruction.SetActive(true);
+                inventoryOpened = true;
+                slotSelected = 3;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            if (inventory[3] != null)
+            {
+                instruction.SetActive(true);
+                inventoryOpened = true;
+                slotSelected = 4;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && inventoryOpened)
+        {
+            for (int i = 0; i < slots.Length; i++)
+            {
+                if (slotSelected == (i+1) && inventory[i])
+                {
+                    inventory[i].GetComponent<Item>().TakeEffect();
+                    //print(inventory[i]);
+                    inventory[i] = null;
+                    UpdateInventory();
+                }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && inventoryOpened)
+        {
+            for (int i = 0; i < slots.Length; i++)
+            {
+                if (slotSelected == (i + 1) && inventory[i])
+                {
+                    inventory[i].GetComponent<Item>().DropItem();
+                    //print(inventory[i]);
+                    inventory[i] = null;
+                    UpdateInventory();
+                }
             }
         }
     }
@@ -55,11 +115,11 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < slots.Length; i++)
         {
             slots[i].GetComponent<Image>().enabled = false;
-            if (inventoryItemImage[i] != null)
+            if (inventory[i] != null)
             {
                 //print(slots[i]);
                //print(inventoryItemImage[i]);
-                slots[i].GetComponent<Image>().sprite = inventoryItemImage[i];
+                slots[i].GetComponent<Image>().sprite = inventory[i].GetComponent<SpriteRenderer>().sprite;
                 slots[i].GetComponent<Image>().enabled = true;
             }
         }
