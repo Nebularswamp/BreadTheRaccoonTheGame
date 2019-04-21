@@ -7,6 +7,8 @@ public class ScriptScene : MonoBehaviour
     public List<ScriptCommand> commands = new List<ScriptCommand>();
     private IEnumerator<ScriptCommand> iterator;
 
+    public bool isScripting;
+
     public void AddCommand(ScriptCommand command)
     {
         commands.Add(command);
@@ -14,31 +16,36 @@ public class ScriptScene : MonoBehaviour
 
     public void InvokeCommand()
     {
-        if (ScriptLocator.textDisplayer.isTyping)
+        if (isScripting)
         {
-            ScriptLocator.textDisplayer.SkipTypingLetter();
-            return;
-        }
+            if (ScriptLocator.textDisplayer.isTyping)
+            {
+                ScriptLocator.textDisplayer.SkipTypingLetter();
+                return;
+            }
 
-        if (ScriptLocator.player.GetComponent<PlayerAutoMotor>().isMoving || ScriptLocator.mom.GetComponent<PlayerAutoMotor>().isMoving)
-        {
-            return;
-        }
+            if (ScriptLocator.player.GetComponent<PlayerAutoMotor>().isAutoMoving || ScriptLocator.mom.GetComponent<PlayerAutoMotor>().isAutoMoving)
+            {
+                return;
+            }
 
-        if (iterator == null)
-        {
-            InitiateScript();
-        }
+            if (iterator == null)
+            {
+                InitiateScript();
+            }
 
-        if (iterator.MoveNext())
-        {
-            iterator.Current.Invoke();
-        }
-        else
-        {
-            ScriptLocator.textDisplayer.HideBubbleText();
-            ScriptLocator.player.GetComponent<PlayerMovement>().isAnimation = false;
-            Debug.LogWarning("End of Scene");
+            if (iterator.MoveNext())
+            {
+                iterator.Current.Invoke();
+            }
+            else
+            {
+                ScriptLocator.textDisplayer.HideBubbleText();
+                ScriptLocator.player.GetComponent<PlayerAutoMotor>().isAutoMoving = false;
+                ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = false;
+                isScripting = false;
+                Debug.LogWarning("End of Scene");
+            }
         }
     }
 
@@ -46,5 +53,6 @@ public class ScriptScene : MonoBehaviour
     {
         iterator = null;
         iterator = commands.GetEnumerator();
+        isScripting = true;
     }
 }

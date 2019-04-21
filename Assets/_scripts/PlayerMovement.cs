@@ -6,13 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
 
-    [HideInInspector]
-    public bool isAnimation;
-
     Rigidbody2D myRigidbody;
     Vector3 movement;
     Animator animator;
     PlayerAutoMotor autoMotor;
+
+    public bool isScripting;
 
     public static bool isHurt;
 
@@ -22,12 +21,11 @@ public class PlayerMovement : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         isHurt = false;
-        //isAnimation = true;
     }
 
     void Update()
     {
-        if (!isAnimation)
+        if (!isScripting)
         {
             movement = Vector3.zero;
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -55,6 +53,9 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+
+        if(Input.GetKeyDown(KeyCode.R))
+            ScriptLocator.scriptParser.CommandRun();
     }
 
     void MoveCharacter()
@@ -72,7 +73,15 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         movement = Vector3.zero;
-        autoMotor.isMoving = false;
+        autoMotor.isAutoMoving = false;
         ScriptLocator.scriptParser.CommandRun();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Event")
+        {
+            ScriptLocator.scriptParser.CommandRun();
+        }
     }
 }

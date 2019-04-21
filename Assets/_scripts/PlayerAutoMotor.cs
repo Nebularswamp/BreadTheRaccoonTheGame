@@ -11,7 +11,7 @@ public class PlayerAutoMotor : MonoBehaviour
         player = GetComponent<PlayerMovement>();
     }
 
-    public bool isMoving
+    public bool isAutoMoving
     {
         get; set;
     }
@@ -19,7 +19,7 @@ public class PlayerAutoMotor : MonoBehaviour
     public void Move(string time)
     {
         ScriptLocator.textDisplayer.HideBubbleText();
-        isMoving = true;
+        isAutoMoving = true;
         string first = time.Substring(0, 1);
         Vector3 move = Vector3.zero;
 
