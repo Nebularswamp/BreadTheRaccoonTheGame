@@ -8,10 +8,7 @@ TagManager:
   - Item
   - Damage
   - Floor
-  - ChocoPie
-  - Nails
-  - Apple
-  - glass
+  - Trash
   layers:
   - Default
   - TransparentFX
