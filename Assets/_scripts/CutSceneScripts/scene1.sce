@@ -14,4 +14,7 @@ label start:
     mvPlayer "u0.3"
     Mom "Don't forget she invited you"
     Player "Yes, Mom!"
+    pause "Player"
+    Mom "What are you doing?"
+    Player "Nothing"
     return

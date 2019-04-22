@@ -13,6 +13,8 @@ public class ScriptParser : MonoBehaviour
     void Start()
     {
         isLoading = true;
+        ScriptLocator.mom.GetComponent<PlayerMovement>().isScripting = true;
+
         script = Script.FromSource("Assets/_scripts/CutSceneScripts/scene1.sce");
         script.Prime();
         script.Validate();
@@ -21,10 +23,12 @@ public class ScriptParser : MonoBehaviour
 
     IEnumerator OnReturn()
     {
-//        Debug.Log("Scene End");
-        yield return new WaitForSecondsRealtime(0.5f);
+        Debug.Log("Scene End");
+        yield return null;
+        //        yield return new WaitForSecondsRealtime(0.5f);
         isLoading = false;
-        scene.InvokeCommand();
+//        scene.isScripting = true;
+//        scene.InvokeCommand();
     }
 
     IEnumerator OnChoiceSelected(Script.Menu menu, Script.Choice choice)
@@ -47,6 +51,11 @@ public class ScriptParser : MonoBehaviour
             scene.AddCommand(new ScriptMove(line.Tag.Substring(2), line.Text));
             yield break;
         }
+        if (line.Tag == "pause")
+        {
+            scene.AddCommand(new ScriptPause(line.Text));
+            yield break;
+        }
 
         scene.AddCommand(new ScriptSay(line.Tag, line.Text));
 
@@ -55,7 +64,7 @@ public class ScriptParser : MonoBehaviour
 
     private void Update()
     {
-        if(Input.anyKeyDown&&!isLoading)
+        if(Input.anyKeyDown&&!isLoading&&scene.isScripting)
         {
             scene.InvokeCommand();
         }
@@ -63,6 +72,15 @@ public class ScriptParser : MonoBehaviour
 
     public void CommandRun()
     {
+        ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = true;
+        scene.isScripting = true;
         scene.InvokeCommand();
+    }
+
+    public void PauseScript()
+    {
+        ScriptLocator.textDisplayer.HideBubbleText();
+        ScriptLocator.player.GetComponent<PlayerAutoMotor>().isAutoMoving = false;
+        scene.isScripting = false;
     }
 }
