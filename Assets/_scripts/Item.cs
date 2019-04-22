@@ -5,22 +5,49 @@ using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
-    public GameObject instruction;
+    //public GameObject instruction;
 
     public string itemName;
     public Sprite itemSprite;
 
-    bool interactable;
+    //bool interactable;
     public bool canPickUp;
 
+    public List<GameObject> content;
+    public List<int> contentNumber;
+
+    public bool ifNew;
+
+    public List<GameObject> usefulItems;
+
+    public List<Image> garbage;
+    //public string itemID;
+
+    public GameObject inventory;
+
+    public Image relatedGarbage;
+    
     // Start is called before the first frame update
     void Start()
     {
-        print("Apple!");
-        instruction = GameObject.Find("Instructions");
-        interactable = false;
+        //print("Apple!");
+        inventory = GameObject.Find("Inventory");
+        //instruction = GameObject.Find("Instructions");
+        //instruction = Inventory.instruction;
+        //interactable = false;
         //instruction.SetActive(false);
-        itemSprite = GetComponent<SpriteRenderer>().sprite;
+        if (GetComponent<SpriteRenderer>())
+        {
+            itemSprite = GetComponent<SpriteRenderer>().sprite;
+        }
+
+        ifNew = true;
+
+        if(content.Count > 0)
+        {
+            InstantiateTrashContent();
+            //print(usefulItems.Count);
+        }
     }
 
     // Update is called once per frame
@@ -33,7 +60,7 @@ public class Item : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
-            interactable = true;
+            //interactable = true;
             //instruction = GameObject.Find("Instructions");
             Inventory.ShowInstruction();
             PlayerBehaviors.itemsAround.Add(gameObject);
@@ -44,7 +71,7 @@ public class Item : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !Inventory.inventoryOpened)
         {
-            interactable = false;
+            //interactable = false;
             //instruction = GameObject.Find("Instructions");
             Inventory.HideInstruction();
             PlayerBehaviors.itemsAround.Remove(gameObject);
@@ -58,8 +85,14 @@ public class Item : MonoBehaviour
 
     public void HideItem()
     {
-        GetComponent<SpriteRenderer>().enabled = false;
-        GetComponent<Collider2D>().enabled = false;
+        if (GetComponent<SpriteRenderer>())
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (GetComponent<Collider2D>())
+        {
+            GetComponent<Collider2D>().enabled = false;
+        }
     }
 
     public void ShowItem()
@@ -83,6 +116,7 @@ public class Item : MonoBehaviour
         GameObject player = GameObject.Find("Player");
         transform.position = player.transform.position;
         ShowItem();
+        Inventory.inventorySpace += 1;
     }
 
     public void TakeEffect()
@@ -102,6 +136,13 @@ public class Item : MonoBehaviour
 
             DestroyItem();
         }
+
+        if (gameObject.CompareTag("Trash"))
+        {
+            inventory.GetComponent<Inventory>().InstantiateContent(usefulItems);
+            inventory.GetComponent<Inventory>().InstantiateContent(garbage);
+            Inventory.OpenTrashGame();
+        }
     }
 
     public void AddToInventory()
@@ -117,15 +158,36 @@ public class Item : MonoBehaviour
                 {
                     if (Inventory.inventory[i] == null)
                     {
+                        //print("to inven");
                         Inventory.inventory[i] = gameObject;
+                        print(Inventory.inventory[i]);
                         //Inventory.inventoryItemName[i] = itemName; 
                         Inventory.inventorySpace -= 1;
                         break;
                     }
                 }
                 GameObject.Find("Inventory").GetComponent<Inventory>().UpdateInventory();
-                PlayerBehaviors.itemsAround.Remove(gameObject);
+                if (PlayerBehaviors.itemsAround.Contains(gameObject))
+                {
+                    PlayerBehaviors.itemsAround.Remove(gameObject);
+                }
+
                 HideItem();
+            }
+        }
+    }
+
+    public void InstantiateTrashContent()
+    {
+        for(int i = 0; i < content.Count; i++)
+        {
+            int count = 0;
+            while(count < contentNumber[i])
+            {
+                GameObject item = Instantiate(content[i], transform.position, transform.rotation);
+                item.GetComponent<Item>().HideItem();
+                usefulItems.Add(item);
+                count += 1;
             }
         }
     }

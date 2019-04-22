@@ -61,7 +61,10 @@ public class PlayerBehaviors : MonoBehaviour
         GameObject[] itemsArray = itemsAround.ToArray();
         for (int i = 0; i < itemsArray.Length; i++)
         {
-            itemsArray[i].GetComponent<Item>().AddToInventory();
+            if (itemsArray[i].GetComponent<Item>().canPickUp)
+            {
+                itemsArray[i].GetComponent<Item>().AddToInventory();
+            }
         }
     }
 
