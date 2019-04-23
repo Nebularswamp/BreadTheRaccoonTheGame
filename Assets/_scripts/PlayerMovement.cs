@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isScripting;
 
     public static bool isHurt;
-
+    
     void Start()
     {
         autoMotor = GetComponent<PlayerAutoMotor>();
@@ -54,7 +54,16 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("moving", false);
         }
 
-        if(Input.GetKeyDown(KeyCode.R))
+        if (PlayerBehaviors.health < 30)
+        {
+            animator.SetBool("Damaged", true);
+        }
+        else
+        {
+            animator.SetBool("Damaged", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
             ScriptLocator.scriptParser.CommandRun();
     }
 

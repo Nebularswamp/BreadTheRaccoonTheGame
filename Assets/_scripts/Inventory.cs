@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour
 
         HideInstruction();
         CloseTrashGame();
-
+        
         //inventoryItemImage = new Sprite[inventorySpace];
         //inventoryItemName = new string[inventorySpace];
         inventory = new GameObject[inventorySpace];

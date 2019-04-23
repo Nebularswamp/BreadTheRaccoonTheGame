@@ -15,7 +15,7 @@ public class PlayerBehaviors : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 50;
+        health = 29;
         hunger = 50;
         sanity = 50;
 
@@ -40,7 +40,7 @@ public class PlayerBehaviors : MonoBehaviour
 
         print(PlayerMovement.isHurt);
         //print(itemsAround.Count);
-        //print("health: " + health);
+        print("health: " + health);
         //print("hunger: " + hunger);
         //print("sanity: " + sanity);
         //print(inventorySpace);
