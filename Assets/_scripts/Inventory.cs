@@ -23,6 +23,7 @@ public class Inventory : MonoBehaviour
 
     int slotSelected;
     public static GameObject selectedGarbageItem;
+    public static GameObject GarbageBinOpened;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,23 +56,19 @@ public class Inventory : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(slotSelected > 0 && trashGameOpened)
-            {
-                inventoryOpened = false;
-                HideInstruction();
-                slotSelected = 0;
-            }
-            else
-            {
-                inventoryOpened = false;
-                HideInstruction();
-                slotSelected = 0;
+            inventoryOpened = false;
+            HideInstruction();
+            slotSelected = 0;
 
+            if (trashGameOpened)
+            {
                 trashGameOpened = false;
                 trashSelected = false;
                 CloseTrashGame();
 
                 ClearContent();
+
+                GarbageBinOpened = null;
             }
         }
 
@@ -158,10 +155,12 @@ public class Inventory : MonoBehaviour
                 if (slotSelected == (i + 1) && inventory[i])
                 {
                     inventory[i].GetComponent<Item>().DropItem();
+
                     //print(inventory[i]);
                     inventory[i] = null;
                     UpdateInventory();
                     instruction.SetActive(false);
+                    inventoryOpened = false;
                 }
             }
         }
@@ -171,6 +170,7 @@ public class Inventory : MonoBehaviour
             if (selectedGarbageItem)
             {
                 selectedGarbageItem.GetComponent<Item>().AddToInventory();
+                GarbageBinOpened.GetComponent<Item>().usefulItems.Remove(selectedGarbageItem);
                 selectedGarbageItem.GetComponent<Item>().relatedGarbage.GetComponent<Garbage>().HideGarbage();
                 instruction.SetActive(false);
                 trashSelected = false;
@@ -187,6 +187,7 @@ public class Inventory : MonoBehaviour
                 {
                     //print("IN");
                     inventory[i].GetComponent<Item>().relatedGarbage.GetComponent<Garbage>().ShowGarbage();
+                    GarbageBinOpened.GetComponent<Item>().usefulItems.Add(inventory[i]);
                     inventorySpace += 1;
                     //print(inventory[i]);
                     inventory[i] = null;

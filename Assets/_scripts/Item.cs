@@ -142,6 +142,7 @@ public class Item : MonoBehaviour
             inventory.GetComponent<Inventory>().InstantiateContent(usefulItems);
             inventory.GetComponent<Inventory>().InstantiateContent(garbage);
             Inventory.OpenTrashGame();
+            Inventory.GarbageBinOpened = gameObject;
         }
     }
 
