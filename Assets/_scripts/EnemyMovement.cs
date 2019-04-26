@@ -37,6 +37,7 @@ public class EnemyMovement : MonoBehaviour
         fow = GetComponent<EnemyFov>();
         SetState(EnemyState.Idle);
         StartCoroutine(FSMMain());
+        player = GameObject.Find("Player");
     }
 
     void SetState(EnemyState newState)

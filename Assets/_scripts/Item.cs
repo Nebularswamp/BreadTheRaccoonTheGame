@@ -144,6 +144,11 @@ public class Item : MonoBehaviour
             Inventory.OpenTrashGame();
             Inventory.GarbageBinOpened = gameObject;
         }
+
+        if (gameObject.CompareTag("TrashCat"))
+        {
+            GetComponent<Trash_Cat>().Boo();
+        }
     }
 
     public void AddToInventory()

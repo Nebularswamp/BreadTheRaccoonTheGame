@@ -12,6 +12,7 @@ TagManager:
   - Event
   - Enemy
   - Nail
+  - TrashCat
   layers:
   - Default
   - TransparentFX
