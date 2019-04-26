@@ -9,7 +9,8 @@ public class EnemyMovement : MonoBehaviour
         Idle,
         Run,
         Attack,
-        Hurt
+        Hurt,
+        Stayback
     }
 
     [HideInInspector]
@@ -17,8 +18,6 @@ public class EnemyMovement : MonoBehaviour
     [HideInInspector]
     public bool enemyHit;
 
-    public float startChasing;
-    public float stopChasing;
     public float startAttack;
     public GameObject player;
     public float speed;
@@ -29,6 +28,7 @@ public class EnemyMovement : MonoBehaviour
     private float myAnimatorNormalizedTime = 0.0f;
 
     EnemyFov fow;
+    Vector3 deltaPos;
 
     private void Start()
     {
@@ -49,7 +49,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (enemyHit && e != EnemyState.Hurt)
         {
-            SetState(EnemyState.Hurt);
+                SetState(EnemyState.Hurt);
         }
 
         myAnimatorStateInfo = ani.GetCurrentAnimatorStateInfo(0);
@@ -80,9 +80,7 @@ public class EnemyMovement : MonoBehaviour
 
     IEnumerator Idle()
     {
-//        transform.Rotate(new Vector3(0, 0, 90f));
-        // Starta
-        do
+       do
         {
             yield return null;
             if (_isNewState) break;
@@ -92,8 +90,6 @@ public class EnemyMovement : MonoBehaviour
                 SetState(EnemyState.Run);
             }
         } while (!_isNewState);
-
-        //End
     }
 
     IEnumerator Run()
@@ -140,6 +136,9 @@ public class EnemyMovement : MonoBehaviour
         } while (!_isNewState);
 
         ani.SetBool("attacking", false);
+
+        yield return new WaitForSeconds(1.5f);
+
         //        if (player != null)
         //            player.GetComponent<PlayerStats>().isHurt = false;
     }
@@ -164,5 +163,43 @@ public class EnemyMovement : MonoBehaviour
         //End
         ani.SetBool("isHurt", false);
         enemyHit = false;
+    }
+
+    IEnumerator Stayback()
+    {
+        myAnimatorNormalizedTime = 0;
+        float timer = 0.0f;
+        float waitingTime = 0.3f;
+
+        do
+        {
+            yield return null;
+            if (_isNewState) break;
+            timer += Time.deltaTime;
+
+            transform.Translate(deltaPos * 0.8f * Time.deltaTime);
+
+            if (timer > waitingTime)
+            {
+                SetState(EnemyState.Idle);
+                timer = 0;
+            }
+        } while (!_isNewState);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+        {
+            deltaPos = transform.position - collision.gameObject.transform.position;
+            deltaPos = deltaPos.normalized;
+            SetState(EnemyState.Stayback);
+        }
+
+        if (collision.tag == "Nail")
+        {
+            enemyHit = true;
+            SetState(EnemyState.Hurt);
+        }
     }
 }

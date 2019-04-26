@@ -9,6 +9,9 @@ TagManager:
   - Damage
   - Floor
   - Trash
+  - Event
+  - Enemy
+  - Nail
   layers:
   - Default
   - TransparentFX
