@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 96fb931f2a6116e498b1de5b40d99fb5
+guid: ec8ace42252aacd45ae3948742ea8267
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: DOG-test_0
+      213: -5265878630806202740
+    second: zombie_sprite_sheet_0
   - first:
-      213: 21300002
-    second: DOG-test_1
+      213: -6506670649224794538
+    second: zombie_sprite_sheet_1
   - first:
-      213: 21300004
-    second: DOG-test_2
+      213: -4441757690194676096
+    second: zombie_sprite_sheet_2
+  - first:
+      213: -540848456902388444
+    second: zombie_sprite_sheet_3
+  - first:
+      213: -3726942767818552147
+    second: zombie_sprite_sheet_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -93,13 +99,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DOG-test_0
+      name: zombie_sprite_sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 300
-        height: 300
+        y: 4
+        width: 280
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +113,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ce3b00df3a4e49a7f02dffc17b5bc
-      internalID: 21300000
+      spriteID: ffe307c2554afee45a611b8b64448fb2
+      internalID: -5265878630806202740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOG-test_1
+      name: zombie_sprite_sheet_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 300
-        height: 300
+        x: 280
+        y: 4
+        width: 280
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 223079db373e4944ebae3acb7e79ca10
-      internalID: 21300002
+      spriteID: ae25e7f1c7cf81641afaff7fa72ff48b
+      internalID: -6506670649224794538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOG-test_2
+      name: zombie_sprite_sheet_2
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 300
-        height: 300
+        x: 560
+        y: 4
+        width: 280
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +155,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b55e980541b3db843baafc426f7aeafe
-      internalID: 21300004
+      spriteID: 23bc0c3eafb8caf40a385580990dfbb8
+      internalID: -4441757690194676096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 4
+        width: 280
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd951c80446ee046b7d192dd74d7de8
+      internalID: -540848456902388444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 4
+        width: 280
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f032f9696e2fb9e4bac33e41b370673c
+      internalID: -3726942767818552147
       vertices: []
       indices: 
       edges: []
@@ -158,7 +206,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 315de879c10727e488a208847b5fe5e3
+    spriteID: 06cc95e09028743419eb2f0cf525ba17
     internalID: 0
     vertices: []
     indices: 
