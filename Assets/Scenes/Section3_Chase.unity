@@ -22342,6 +22342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22463,6 +22468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22571,6 +22581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -22687,6 +22702,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22801,6 +22821,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -23130,6 +23155,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23238,6 +23268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -23384,6 +23419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23492,6 +23532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -23686,6 +23731,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23800,6 +23850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -24024,6 +24079,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24127,6 +24187,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 497820382}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &579723736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_Name
+      value: bull_dog (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.637309
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355985, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 449405410}
+    - target: {fileID: 1659058868038355985, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: speed
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355986, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: viewRadius
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f85478c553ee4561ba407553f509e2a, type: 3}
 --- !u!1001 &592949943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24138,6 +24287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -24247,6 +24401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -24363,6 +24522,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24471,6 +24635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -24586,6 +24755,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -24775,6 +24949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24889,6 +25068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -25005,6 +25189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25120,6 +25309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25234,6 +25428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -25435,6 +25634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -25640,6 +25844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25759,6 +25968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -25962,6 +26176,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26151,6 +26370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -26470,6 +26694,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26717,6 +26946,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd2687c12b484a548c9fea360bb2235, type: 3}
+--- !u!1001 &1052024892
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_Name
+      value: bull_dog (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.637309
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355985, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 449405410}
+    - target: {fileID: 1659058868038355985, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: speed
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355986, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: viewRadius
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f85478c553ee4561ba407553f509e2a, type: 3}
 --- !u!1001 &1078919015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26728,6 +27046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -26974,6 +27297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27179,6 +27507,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27368,6 +27701,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27545,6 +27883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -27730,6 +28073,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27882,6 +28230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27996,6 +28349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -28260,6 +28618,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -28664,6 +29027,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28772,6 +29140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -31280,6 +31653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31388,6 +31766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -31597,6 +31980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31712,6 +32100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31820,6 +32213,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -31990,16 +32388,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 449405410}
-    - target: {fileID: 1659058868038355985, guid: 1f85478c553ee4561ba407553f509e2a,
-        type: 3}
-      propertyPath: speed
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1659058868038355986, guid: 1f85478c553ee4561ba407553f509e2a,
-        type: 3}
-      propertyPath: viewRadius
-      value: 30
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f85478c553ee4561ba407553f509e2a, type: 3}
 --- !u!4 &1818172839 stripped
@@ -32094,6 +32482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -32203,6 +32596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -32325,6 +32723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32433,6 +32836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -35390,6 +35798,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35498,6 +35911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -35614,6 +36032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35728,6 +36151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
@@ -35844,6 +36272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nails (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
+      objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35952,6 +36385,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nails (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725926227470680096, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Nail
       objectReference: {fileID: 0}
     - target: {fileID: 5725926227470680093, guid: 3642918e3ed6a4e5593b9dd56184f7c6,
         type: 3}

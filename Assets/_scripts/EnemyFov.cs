@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyFov : MonoBehaviour
 {
     public float viewRadius;
-    public float viewAngle;
+//    public float viewAngle;
     public Collider2D[] playerInRadius;
     public LayerMask obstacleMask, playerMask;
     public List<Transform> visiblePlayer = new List<Transform>();
