@@ -266,7 +266,9 @@ public class Inventory : MonoBehaviour
                 newGarbage.transform.SetParent(trashGame.transform);
                 float posX = trashGame.transform.position.x + Random.Range(-200f, 200f);
                 float posY = trashGame.transform.position.y + Random.Range(-200f, 200f);
+                float rotZ = Random.Range(-180f, 180f);
                 newGarbage.transform.position = new Vector3(posX, posY, 0);
+                newGarbage.transform.rotation = Quaternion.Euler(0, 0, rotZ);
                 count += 1;
             }
         }
