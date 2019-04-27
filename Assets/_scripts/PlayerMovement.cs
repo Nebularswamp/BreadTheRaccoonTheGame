@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float normalSpeed = 5f;
+
+    public float speed;
 
     Rigidbody2D myRigidbody;
     Vector3 movement;
@@ -17,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
+        speed = normalSpeed;
         autoMotor = GetComponent<PlayerAutoMotor>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -61,6 +64,24 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("Damaged", false);
+        }
+
+        if (PlayerBehaviors.hunger < 50)
+        {
+            animator.SetBool("Hungry", true);
+            if (1 < PlayerBehaviors.hunger && PlayerBehaviors.hunger < 50)
+            {
+                speed = normalSpeed * (2f / 3f);
+            }
+            if(PlayerBehaviors.hunger <= 1)
+            {
+                speed = normalSpeed * (1f / 3f);
+            }
+        }
+        else
+        {
+            animator.SetBool("Hungry", false);
+            speed = normalSpeed;
         }
 
         if (Input.GetKeyDown(KeyCode.R))

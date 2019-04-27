@@ -26,6 +26,8 @@ public class Item : MonoBehaviour
     public GameObject inventory;
 
     public Image relatedGarbage;
+
+    GameObject player;
     
     // Start is called before the first frame update
     void Start()
@@ -62,6 +64,7 @@ public class Item : MonoBehaviour
         {
             //interactable = true;
             //instruction = GameObject.Find("Instructions");
+            player = collision.gameObject;
             Inventory.ShowInstruction();
             PlayerBehaviors.itemsAround.Add(gameObject);
         }
@@ -73,6 +76,7 @@ public class Item : MonoBehaviour
         {
             //interactable = false;
             //instruction = GameObject.Find("Instructions");
+            player = null;
             Inventory.HideInstruction();
             PlayerBehaviors.itemsAround.Remove(gameObject);
         }
@@ -123,6 +127,9 @@ public class Item : MonoBehaviour
     {
         if (gameObject.CompareTag("Food"))
         {
+            Animator animator = player.GetComponent<Animator>();
+            animator.SetTrigger("eat");
+
             int[] effects = ItemWiki.ReturnEffects(itemName);
 
             PlayerBehaviors.health += effects[0];

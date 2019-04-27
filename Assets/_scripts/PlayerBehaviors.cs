@@ -15,8 +15,8 @@ public class PlayerBehaviors : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 29;
-        hunger = 50;
+        health = 50;
+        hunger = 0;
         sanity = 50;
 
 
