@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4688094337363371497}
   - component: {fileID: 4688094337363371498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trash_Can (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4688094337713055889}
   - component: {fileID: 4688094337713055888}
   - component: {fileID: 4688094337713055895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trash_Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4688094338700586422}
   - component: {fileID: 4688094338700586423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Sprite Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 4688094338736826980}
   - component: {fileID: 4688094338736826981}
   - component: {fileID: 4688094338736826982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trash_Normal
   m_TagString: Trash
   m_Icon: {fileID: 0}
