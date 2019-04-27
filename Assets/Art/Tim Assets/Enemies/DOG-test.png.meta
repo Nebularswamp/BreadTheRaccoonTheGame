@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 96fb931f2a6116e498b1de5b40d99fb5
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: DOG-test_0
-    21300002: DOG-test_1
-    21300004: DOG-test_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: DOG-test_0
+  - first:
+      213: 21300002
+    second: DOG-test_1
+  - first:
+      213: 21300004
+    second: DOG-test_2
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -102,6 +108,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 425ce3b00df3a4e49a7f02dffc17b5bc
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -122,6 +129,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 223079db373e4944ebae3acb7e79ca10
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -142,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b55e980541b3db843baafc426f7aeafe
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -150,10 +159,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 315de879c10727e488a208847b5fe5e3
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
