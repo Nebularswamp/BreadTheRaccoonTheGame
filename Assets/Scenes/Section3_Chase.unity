@@ -99391,6 +99391,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -102228,6 +102233,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
         type: 3}
@@ -109955,6 +109965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bull_dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659058868038355989, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1659058868038355990, guid: 1f85478c553ee4561ba407553f509e2a,
         type: 3}
