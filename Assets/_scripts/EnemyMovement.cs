@@ -19,16 +19,17 @@ public class EnemyMovement : MonoBehaviour
     public bool enemyHit;
 
     public float startAttack;
-    public GameObject player;
     public float speed;
 
     Animator ani;
+    GameObject player;
     bool _isNewState = false;
     private AnimatorStateInfo myAnimatorStateInfo;
     private float myAnimatorNormalizedTime = 0.0f;
 
     EnemyFov fow;
     Vector3 deltaPos;
+    Vector2 dir;
 
     private void Start()
     {
@@ -53,6 +54,8 @@ public class EnemyMovement : MonoBehaviour
                 SetState(EnemyState.Hurt);
         }
 
+        FlipSprite();
+
         myAnimatorStateInfo = ani.GetCurrentAnimatorStateInfo(0);
         myAnimatorNormalizedTime = myAnimatorStateInfo.normalizedTime;
     }
@@ -68,20 +71,27 @@ public class EnemyMovement : MonoBehaviour
 
     void FlipSprite()
     {
+        dir = (Vector2)player.transform.position - (Vector2)transform.position;
+
+        ani.SetFloat("moveX", dir.x);
+        ani.SetFloat("moveY", dir.y);
+
         if (player.transform.position.x > transform.position.x)
-        {
-            transform.localScale = new Vector2(-1f, 1f);
-        }
-        else
         {
             transform.localScale = new Vector2(1f, 1f);
         }
+        else
+        {
+            transform.localScale = new Vector2(-1f, 1f);
+        }
+
+
     }
 
 
     IEnumerator Idle()
     {
-       do
+        do
         {
             yield return null;
             if (_isNewState) break;
@@ -103,7 +113,7 @@ public class EnemyMovement : MonoBehaviour
             yield return null;
             if (_isNewState) break;
 
-            FlipSprite();
+//            FlipSprite();
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             if(!fow.visiblePlayer.Contains(player.transform))
             {
@@ -130,7 +140,7 @@ public class EnemyMovement : MonoBehaviour
             yield return null;
             if (_isNewState) break;
             transform.position = Vector2.MoveTowards(transform.position, lastTargetPosition, speed * 2f * Time.deltaTime);
-            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Attack"))
+            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Attack Tree"))
             {
                 SetState(EnemyState.Idle);
             }
