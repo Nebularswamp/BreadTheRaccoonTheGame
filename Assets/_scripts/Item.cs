@@ -76,7 +76,7 @@ public class Item : MonoBehaviour
         {
             //interactable = false;
             //instruction = GameObject.Find("Instructions");
-            player = null;
+            //player = null;
             Inventory.HideInstruction();
             PlayerBehaviors.itemsAround.Remove(gameObject);
         }
@@ -127,7 +127,7 @@ public class Item : MonoBehaviour
     {
         if (gameObject.CompareTag("Food"))
         {
-            Animator animator = player.GetComponent<Animator>();
+            Animator animator = GameObject.Find("Player").GetComponent<Animator>();
             animator.SetTrigger("eat");
 
             int[] effects = ItemWiki.ReturnEffects(itemName);

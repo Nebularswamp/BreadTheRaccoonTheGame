@@ -488,7 +488,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Damaged
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 3716965652159499816}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -832,7 +832,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Damaged
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102267984635212648}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -1033,7 +1033,7 @@ AnimatorStateTransition:
     m_ConditionEvent: moving
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102532313471079522}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -1310,7 +1310,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Damaged
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 3716965652159499816}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -1437,7 +1437,7 @@ BlendTree:
   m_Name: Walking Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 84ba2c6438fbd4dd38c4b617e5d66dfe, type: 2}
+    m_Motion: {fileID: 7400000, guid: c8c33c3f8fc474085bfa574c574b4194, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -1445,7 +1445,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c9f47fa74f93b4cc0a8e5d1c685edf5d, type: 2}
+    m_Motion: {fileID: 7400000, guid: b7f3b39e0d3f240cf9e829c5093214d1, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -1453,7 +1453,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c9f47fa74f93b4cc0a8e5d1c685edf5d, type: 2}
+    m_Motion: {fileID: 7400000, guid: b7f3b39e0d3f240cf9e829c5093214d1, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -1461,7 +1461,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 5054c35817f254bbb8ef6d861c34f57c, type: 2}
+    m_Motion: {fileID: 7400000, guid: 00fa6cad64a704311810986023887108, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -1582,7 +1582,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Damaged
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102532313471079522}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0

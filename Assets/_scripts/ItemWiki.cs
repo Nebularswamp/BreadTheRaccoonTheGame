@@ -9,25 +9,25 @@ public class ItemWiki : MonoBehaviour
     private void Start()
     {
         //For the int[], the represented statuses are health/hunger/sanity, in this specific order.
-        wiki.Add("apple_fresh", new int[] { 5, 20, 5 });
-        wiki.Add("apple_moldy", new int[] { 5, 20, 5 });
-        wiki.Add("apple_spoiled", new int[] { 5, 20, 5 });
-        wiki.Add("chocopie_fresh", new int[] { 5, 20, 5 });
-        wiki.Add("chocopie_moldy", new int[] { 5, 20, 5 });
-        wiki.Add("chocopie_spoiled", new int[] { 5, 20, 5 });
-        wiki.Add("baozi_fresh", new int[] { 5, 20, 5 });
-        wiki.Add("baozi_moldy", new int[] { 5, 20, 5 });
-        wiki.Add("baozi_spoiled", new int[] { 5, 20, 5 });
-        wiki.Add("macaroon_fresh", new int[] { 5, 20, 5 });
-        wiki.Add("macaroon_moldy", new int[] { 5, 20, 5 });
-        wiki.Add("macaroon_spoiled", new int[] { 5, 20, 5 });
+        wiki.Add("apple_fresh", new int[] { 10, 25, 5 });
+        wiki.Add("apple_moldy", new int[] { 0, 20, 0 });
+        wiki.Add("apple_spoiled", new int[] { -2, 20, -2 });
+        wiki.Add("chocopie_fresh", new int[] { 5, 35, 30 });
+        wiki.Add("chocopie_moldy", new int[] { 0, 25, 0 });
+        wiki.Add("chocopie_spoiled", new int[] { -2, 25, -5 });
+        wiki.Add("baozi_fresh", new int[] { 10, 25, 10 });
+        wiki.Add("baozi_moldy", new int[] { 0, 20, 0 });
+        wiki.Add("baozi_spoiled", new int[] { -2, 20, -15 });
+        wiki.Add("macaroon_fresh", new int[] { 5, 15, 10 });
+        wiki.Add("macaroon_moldy", new int[] { 0, 20, 0 });
+        wiki.Add("macaroon_spoiled", new int[] { -2, 20, -3 });
 
 
 
         //Traps and enemies
-        wiki.Add("nails", new int[] { -10, 0, 0 });
-        wiki.Add("bull_dog", new int[] { -10, 0, 0 });
-        wiki.Add("stray_cat", new int[] { -10, 0, 0 });
+        wiki.Add("nails", new int[] { -5, 0, -5 });
+        wiki.Add("bull_dog", new int[] { -10, 0, -10 });
+        wiki.Add("stray_cat", new int[] { -10, 0, -10 });
 
     }
 
