@@ -11,11 +11,24 @@ public class TextDisplayer : MonoBehaviour
     Image dialogBubble;
     string currentTypingDialgoue;
 
+    string currentName;
+
     private void Start()
     {
         dialogText = GetComponentInChildren<Text>();
         dialogBubble = GetComponentInChildren<Image>();
         HideBubbleText();
+    }
+
+    private void Update()
+    {
+        if(currentName != null)
+        {
+            if (currentName == "Player")
+                transform.position = ScriptLocator.player.transform.position + new Vector3(0.2f,0.2f,0);
+            else if (currentName == "Mom")
+                transform.position = ScriptLocator.mom.transform.position + new Vector3(0.2f, 0.2f, 0);
+        }
     }
 
     public void HideBubbleText()
@@ -26,10 +39,7 @@ public class TextDisplayer : MonoBehaviour
 
     public void ShowBubbleText(string name)
     {
-        if (name == "Player")
-            transform.position = ScriptLocator.player.transform.position;
-        else if (name == "Mom")
-            transform.position = ScriptLocator.mom.transform.position;
+        currentName = name;
 
         dialogText.enabled = true;
         dialogBubble.enabled = true;
