@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
 
     Rigidbody2D myRigidbody;
-    Vector3 movement;
+    public Vector3 movement;
     Animator animator;
     PlayerAutoMotor autoMotor;
 
@@ -33,6 +33,24 @@ public class PlayerMovement : MonoBehaviour
             movement = Vector3.zero;
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
+
+            if (PlayerBehaviors.hunger < 50)
+            {
+                animator.SetBool("Hungry", true);
+                if (1 < PlayerBehaviors.hunger && PlayerBehaviors.hunger < 50)
+                {
+                    speed = normalSpeed * (2f / 3f);
+                }
+                if (PlayerBehaviors.hunger <= 1)
+                {
+                    speed = normalSpeed * (1f / 3f);
+                }
+            }
+            else
+            {
+                animator.SetBool("Hungry", false);
+                speed = normalSpeed;
+            }
         }
 
         if(movement != Vector3.zero && isHurt == false)
@@ -65,27 +83,6 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("Damaged", false);
         }
-
-        if (PlayerBehaviors.hunger < 50)
-        {
-            animator.SetBool("Hungry", true);
-            if (1 < PlayerBehaviors.hunger && PlayerBehaviors.hunger < 50)
-            {
-                speed = normalSpeed * (2f / 3f);
-            }
-            if(PlayerBehaviors.hunger <= 1)
-            {
-                speed = normalSpeed * (1f / 3f);
-            }
-        }
-        else
-        {
-            animator.SetBool("Hungry", false);
-            speed = normalSpeed;
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-            ScriptLocator.scriptParser.CommandRun();
     }
 
     void MoveCharacter()
@@ -105,13 +102,5 @@ public class PlayerMovement : MonoBehaviour
         movement = Vector3.zero;
         autoMotor.isAutoMoving = false;
         ScriptLocator.scriptParser.CommandRun();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "Event")
-        {
-            ScriptLocator.scriptParser.CommandRun();
-        }
     }
 }
