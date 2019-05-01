@@ -156,6 +156,25 @@ public class Item : MonoBehaviour
         {
             GetComponent<Trash_Cat>().Boo();
         }
+
+        if (gameObject.CompareTag("Water"))
+        {
+            //Animator animator = GameObject.Find("Player").GetComponent<Animator>();
+            //animator.SetTrigger("eat");
+
+            int[] effects = ItemWiki.ReturnEffects(itemName);
+
+            PlayerBehaviors.health += effects[0];
+            PlayerBehaviors.health = Mathf.Clamp(PlayerBehaviors.health, 0, 100);
+
+            PlayerBehaviors.hunger += effects[1];
+            PlayerBehaviors.hunger = Mathf.Clamp(PlayerBehaviors.hunger, 0, 100);
+
+            PlayerBehaviors.sanity += effects[2];
+            PlayerBehaviors.sanity = Mathf.Clamp(PlayerBehaviors.sanity, 0, 100);
+
+            //DestroyItem();
+        }
     }
 
     public void AddToInventory()
