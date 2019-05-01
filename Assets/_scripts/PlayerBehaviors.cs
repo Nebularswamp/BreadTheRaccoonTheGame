@@ -11,14 +11,20 @@ public class PlayerBehaviors : MonoBehaviour
 
     public static List<GameObject> itemsAround;
 
+    public GameObject bleed_UI;
+    public GameObject darkness_UI;
+    public GameObject paranoid_UI;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        health = 20;
-        hunger = 49;
-        sanity = 50;
+        health = 70;
+        hunger = 70;
+        sanity = 70;
 
+        bleed_UI.GetComponent<Image>().enabled = false;
+        paranoid_UI.GetComponent<Image>().enabled = false;
 
         itemsAround = new List<GameObject>();
 
@@ -44,6 +50,25 @@ public class PlayerBehaviors : MonoBehaviour
         //print("hunger: " + hunger);
         //print("sanity: " + sanity);
         //print(inventorySpace);
+
+        if (health < 30)
+        {
+            bleed_UI.GetComponent<Image>().enabled = true;
+        }
+        else
+        {
+            bleed_UI.GetComponent<Image>().enabled = false;
+        }
+
+        if (sanity < 30)
+        {
+            paranoid_UI.GetComponent<Image>().enabled = true;
+        }
+        else
+        {
+            paranoid_UI.GetComponent<Image>().enabled = false;
+        }
+
     }
 
     private void Interact()

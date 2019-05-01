@@ -13,6 +13,7 @@ TagManager:
   - Enemy
   - Nail
   - TrashCat
+  - Water
   layers:
   - Default
   - TransparentFX
