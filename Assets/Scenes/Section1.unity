@@ -15215,14 +15215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fcc22c7adf39f14d9e2117fb3c2fbf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   normalSpeed: 5
   speed: 5
-=======
-  normalSpeed: 2
-  speed: 0
-  movement: {x: 0, y: 0, z: 0}
->>>>>>> 17a34588d7e61c93340c1aec028fe93b6a4ab329
   isScripting: 0
 --- !u!61 &2059362092
 BoxCollider2D:
