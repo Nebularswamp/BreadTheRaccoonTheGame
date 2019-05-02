@@ -85,7 +85,6 @@ public class EnemyMovement : MonoBehaviour
             transform.localScale = new Vector2(-1f, 1f);
         }
 
-
     }
 
 

@@ -14,6 +14,7 @@ public class ScriptParser : MonoBehaviour
     GameObject event2;
 
     bool isEvent1 = false;
+    public bool isEvent2 = false;
 
     void Start()
     {
@@ -118,10 +119,14 @@ public class ScriptParser : MonoBehaviour
 
     public void CommandRun()
     {
-        ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = true;
+        if(!isEvent2)
+        {
+            ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = true;
+            ScriptLocator.player.GetComponent<PlayerMovement>().movement = Vector3.zero;
+        }
+
         ScriptLocator.mom.GetComponent<PlayerAutoMotor>().isAutoMoving = false;
         scene.isScripting = true;
-        ScriptLocator.player.GetComponent<PlayerMovement>().movement = Vector3.zero;
         scene.InvokeCommand();
     }
 
@@ -138,7 +143,6 @@ public class ScriptParser : MonoBehaviour
     {
         yield return new WaitForSeconds(2.5f);
         ScriptLocator.textDisplayer.HideBubbleText();
-        PlayerMovement.isHurt = false;
         ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = false;
     }
 

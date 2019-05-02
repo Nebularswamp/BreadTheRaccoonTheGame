@@ -27,7 +27,7 @@ public class TextDisplayer : MonoBehaviour
             if (currentName == "Player")
                 transform.position = ScriptLocator.player.transform.position + new Vector3(0.2f,0.2f,0);
             else if (currentName == "Mom")
-                transform.position = ScriptLocator.mom.transform.position + new Vector3(0.2f, 0.2f, 0);
+                transform.position = ScriptLocator.mom.transform.position + new Vector3(0.4f, 0.4f, 0);
         }
     }
 

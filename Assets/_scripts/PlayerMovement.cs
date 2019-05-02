@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isScripting;
 
     public static bool isHurt;
+    bool isflip = false;
     
     void Start()
     {
@@ -62,12 +63,22 @@ public class PlayerMovement : MonoBehaviour
 
             if (movement.x < 0)
             {
-                transform.localScale = new Vector3(-1f, 1f, 1f);
+                if (!isflip)
+                {
+                    transform.Rotate(new Vector3(0f, -180f, 0));
+                    isflip = true;
+                }
+//                transform.localScale = new Vector3(-1f, 1f, 1f);
             }
 
             if (movement.x > 0)
             {
-                transform.localScale = new Vector3(1f, 1f, 1f);
+                if (isflip)
+                {
+                    transform.Rotate(new Vector3(0f, -180f, 0));
+                    isflip = false;
+                }
+                //                transform.localScale = new Vector3(1f, 1f, 1f);
             }
         }
         else
