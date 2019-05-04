@@ -21,6 +21,7 @@ public class Item : MonoBehaviour
     public List<GameObject> usefulItems;
 
     public List<Image> garbage;
+    public List<Image> eliteGarbage;
     //public string itemID;
 
     public GameObject inventory;
@@ -117,7 +118,7 @@ public class Item : MonoBehaviour
 
     public void DropItem()
     {
-        GameObject player = GameObject.Find("Player");
+        player = GameObject.Find("Player");
         transform.position = player.transform.position;
         ShowItem();
         Inventory.inventorySpace += 1;
@@ -125,10 +126,14 @@ public class Item : MonoBehaviour
 
     public void TakeEffect()
     {
+
         if (gameObject.CompareTag("Food"))
         {
-            Animator animator = GameObject.Find("Player").GetComponent<Animator>();
+            player = GameObject.Find("Player");
+            Animator animator = player.GetComponent<Animator>();
             animator.SetTrigger("eat");
+
+            //HideItem();
 
             int[] effects = ItemWiki.ReturnEffects(itemName);
 
@@ -141,13 +146,14 @@ public class Item : MonoBehaviour
             PlayerBehaviors.sanity += effects[2];
             PlayerBehaviors.sanity = Mathf.Clamp(PlayerBehaviors.sanity, 0, 100);
 
-            DestroyItem();
+            StartCoroutine(PlayAudio());
         }
 
         if (gameObject.CompareTag("Trash"))
         {
             inventory.GetComponent<Inventory>().InstantiateContent(usefulItems);
-            inventory.GetComponent<Inventory>().InstantiateContent(garbage);
+            inventory.GetComponent<Inventory>().InstantiateGarbage(garbage);
+            inventory.GetComponent<Inventory>().InstantiateEliteGarbage(eliteGarbage);
             Inventory.OpenTrashGame();
             Inventory.GarbageBinOpened = gameObject;
         }
@@ -222,5 +228,14 @@ public class Item : MonoBehaviour
                 count += 1;
             }
         }
+    }
+
+    IEnumerator PlayAudio()
+    {
+        HideItem();
+        GetComponent<AudioSource>().Play();
+        print("playaudio");
+        yield return new WaitForSeconds(3f);
+        DestroyItem();
     }
 }

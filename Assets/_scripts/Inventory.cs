@@ -243,27 +243,52 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < item.Count; i++)
         {
             Image newGarbage = Instantiate(garbage);
+
             newGarbage.GetComponent<Garbage>().relatedItem = item[i];
             item[i].GetComponent<Item>().relatedGarbage = newGarbage;
             newGarbage.GetComponent<Image>().sprite = item[i].GetComponent<SpriteRenderer>().sprite;
             newGarbage.transform.SetParent(trashGame.transform);
+            newGarbage.rectTransform.localScale = new Vector3(1, 1, 1);
             float posX = trashGame.transform.position.x + Random.Range(-200f, 200f);
             float posY = trashGame.transform.position.y + Random.Range(-200f, 200f);
             newGarbage.transform.position = new Vector3(posX, posY, 0);
         }
     }
 
-    public void InstantiateContent(List<Image> item)
+    public void InstantiateGarbage(List<Image> item)
     {
         for (int i = 0; i < item.Count; i++)
         {
             int count = 0;
-            int amount = Random.Range(10, 16);
+            int amount = Random.Range(0, 7);
             while (count < amount)
             {
                 Image newGarbage = Instantiate(item[i]);
 
                 newGarbage.transform.SetParent(trashGame.transform);
+                newGarbage.rectTransform.localScale = new Vector3(1, 1, 1);
+                float posX = trashGame.transform.position.x + Random.Range(-200f, 200f);
+                float posY = trashGame.transform.position.y + Random.Range(-200f, 200f);
+                float rotZ = Random.Range(-180f, 180f);
+                newGarbage.transform.position = new Vector3(posX, posY, 0);
+                newGarbage.transform.rotation = Quaternion.Euler(0, 0, rotZ);
+                count += 1;
+            }
+        }
+    }
+
+    public void InstantiateEliteGarbage(List<Image> item)
+    {
+        for (int i = 0; i < item.Count; i++)
+        {
+            int count = 0;
+            int amount = Random.Range(0, 3);
+            while (count < amount)
+            {
+                Image newGarbage = Instantiate(item[i]);
+
+                newGarbage.transform.SetParent(trashGame.transform);
+                newGarbage.rectTransform.localScale = new Vector3(1, 1, 1);
                 float posX = trashGame.transform.position.x + Random.Range(-200f, 200f);
                 float posY = trashGame.transform.position.y + Random.Range(-200f, 200f);
                 float rotZ = Random.Range(-180f, 180f);

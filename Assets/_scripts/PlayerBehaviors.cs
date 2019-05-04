@@ -89,6 +89,8 @@ public class PlayerBehaviors : MonoBehaviour
             if (itemsArray[i].GetComponent<Item>().canPickUp)
             {
                 itemsArray[i].GetComponent<Item>().AddToInventory();
+                GameObject pickUpAudio = GameObject.Find("PickUpAudio");
+                pickUpAudio.GetComponent<AudioSource>().Play();
             }
         }
     }

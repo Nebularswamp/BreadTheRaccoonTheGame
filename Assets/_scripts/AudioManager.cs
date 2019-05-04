@@ -1,11 +1,16 @@
 ﻿using UnityEngine.Audio;
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public AudioSource audioSource;
 
-    public static AudioManager instance = null;
+    public AudioClip eatFresh;
+
+
+    /*public static AudioManager instance = null;
 
     public AudioMixerGroup mixer;
 
@@ -34,7 +39,7 @@ public class AudioManager : MonoBehaviour
     public void Play (string sound)
     {
         Audio sfx = Array.Find(sounds, item => item.name == sound); 
-    }
+    }*/
     
     
 

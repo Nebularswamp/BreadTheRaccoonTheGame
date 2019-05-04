@@ -131,6 +131,9 @@ public class EnemyMovement : MonoBehaviour
     IEnumerator Attack()
     {
         ani.SetBool("attacking", true);
+
+        GetComponent<AudioSource>().Play();
+
         myAnimatorNormalizedTime = 0;
         Vector2 lastTargetPosition = player.transform.position;
 

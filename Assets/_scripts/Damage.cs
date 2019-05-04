@@ -45,6 +45,8 @@ public class Damage : MonoBehaviour
 
     IEnumerator TakeDamage()
     {
+        GameObject takeDamageAudio = GameObject.Find("TakeDamageAudio");
+        takeDamageAudio.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(0.1f);
         PlayerMovement.isHurt = true;
         yield return new WaitForSeconds(0.7f);

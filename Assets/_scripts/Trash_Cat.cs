@@ -30,6 +30,7 @@ public class Trash_Cat : MonoBehaviour
 
     IEnumerator Boooo()
     {
+        GetComponent<AudioSource>().Play();
         panel.GetComponent<Image>().enabled = true;
         cat.GetComponent<Image>().enabled = true;
         yield return new WaitForSeconds(0.2f);

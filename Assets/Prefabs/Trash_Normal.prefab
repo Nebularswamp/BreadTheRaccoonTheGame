@@ -342,5 +342,10 @@ MonoBehaviour:
   garbage:
   - {fileID: 5817959862667236138, guid: 2110c4a2dd56145bc86bf15ca861904a, type: 3}
   - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
+  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
+  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
+  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
+  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
