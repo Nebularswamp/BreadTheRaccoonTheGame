@@ -29,6 +29,8 @@ public class Item : MonoBehaviour
     public Image relatedGarbage;
 
     GameObject player;
+
+    public string memory;
     
     // Start is called before the first frame update
     void Start()
@@ -238,4 +240,5 @@ public class Item : MonoBehaviour
         yield return new WaitForSeconds(3f);
         DestroyItem();
     }
+
 }

@@ -74,6 +74,33 @@ public class PlayerBehaviors : MonoBehaviour
     private void Interact()
     {
         GameObject[] itemsArray = itemsAround.ToArray();
+
+        if(itemsArray.Length > 0)
+        {
+            if (itemsArray[0].GetComponent<Item>().memory.Length > 0)
+            {
+                StartCoroutine(ShowMemory());
+            }
+        }
+
+        IEnumerator ShowMemory()
+        {
+            GameObject mem = GameObject.Find("Memory");
+            GameObject memContent = GameObject.Find("MemoryContent");
+            mem.GetComponent<CanvasGroup>().alpha = 1;
+            string text = itemsArray[0].GetComponent<Item>().memory;
+            memContent.GetComponent<Text>().text = null;
+
+            foreach (char letter in text.ToCharArray())
+            {
+                memContent.GetComponent<Text>().text += letter;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            yield return new WaitForSeconds(4f);
+            mem.GetComponent<CanvasGroup>().alpha = 0;
+        }
+
         for (int i = 0; i < itemsArray.Length; i++)
         {
             itemsArray[i].GetComponent<Item>().TakeEffect();
@@ -99,4 +126,6 @@ public class PlayerBehaviors : MonoBehaviour
     {
         hunger -= 1;
     }
+
+
 }

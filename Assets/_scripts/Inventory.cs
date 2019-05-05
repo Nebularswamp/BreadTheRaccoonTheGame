@@ -228,14 +228,14 @@ public class Inventory : MonoBehaviour
 
     public static void OpenTrashGame()
     {
-        trashGame.SetActive(true);
+        trashGame.GetComponent<Image>().enabled = true;
         trashGameOpened = true;
         instruction.SetActive(false);
     }
 
     public static void CloseTrashGame()
     {
-        trashGame.SetActive(false);
+        trashGame.GetComponent<Image>().enabled = false;
     }
 
     public void InstantiateContent(List<GameObject> item)
