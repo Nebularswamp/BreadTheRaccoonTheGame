@@ -167,7 +167,7 @@ public class EnemyMovement : MonoBehaviour
             yield return null;
             if (_isNewState) break;
             // Action
-            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Hurt"))
+            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Hurt Tree"))
             {
                 SetState(EnemyState.Idle);
             }
@@ -213,6 +213,13 @@ public class EnemyMovement : MonoBehaviour
         {
             enemyHit = true;
             SetState(EnemyState.Hurt);
+        }
+
+        if (collision.tag == "Wall")
+        {
+            deltaPos = transform.position - player.transform.position;
+            deltaPos = deltaPos.normalized;
+            SetState(EnemyState.Stayback);
         }
     }
 }
