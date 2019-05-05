@@ -28,8 +28,8 @@ public class ItemWiki : MonoBehaviour
 
         //Traps and enemies
         wiki.Add("nails", new int[] { -5, 0, -5 });
-        wiki.Add("bull_dog", new int[] { -10, 0, -10 });
-        wiki.Add("stray_cat", new int[] { -10, 0, -10 });
+        wiki.Add("bull_dog", new int[] { -15, 0, -10 });
+        wiki.Add("stray_cat", new int[] { -10, 0, -5 });
 
     }
 
