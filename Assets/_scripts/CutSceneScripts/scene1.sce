@@ -1,7 +1,7 @@
 label start:
     mvMom "l3.5"
     mvMom "d0.5"
-    Mom "Bread, did you did all the food again?"
+    Mom "Bread, did you do all the food again?"
     Player "I was hungry!"
     Mom "Fair."
     Player "Are we having dinner yet?"

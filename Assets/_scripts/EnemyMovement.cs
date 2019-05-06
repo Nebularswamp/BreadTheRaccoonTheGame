@@ -23,6 +23,7 @@ public class EnemyMovement : MonoBehaviour
 
     Animator ani;
     GameObject player;
+    GameObject mom;
     bool _isNewState = false;
     private AnimatorStateInfo myAnimatorStateInfo;
     private float myAnimatorNormalizedTime = 0.0f;
@@ -36,9 +37,16 @@ public class EnemyMovement : MonoBehaviour
         enemyHit = false;
         ani = GetComponent<Animator>();
         fow = GetComponent<EnemyFov>();
+        player = GameObject.Find("Player");
+        mom = GameObject.Find("Mom");
         SetState(EnemyState.Idle);
         StartCoroutine(FSMMain());
-        player = GameObject.Find("Player");
+    }
+
+    private void OnEnable()
+    {
+        SetState(EnemyState.Idle);
+        StartCoroutine(FSMMain());
     }
 
     void SetState(EnemyState newState)
@@ -95,9 +103,21 @@ public class EnemyMovement : MonoBehaviour
             yield return null;
             if (_isNewState) break;
             // Action
-            if (fow.visiblePlayer.Contains(player.transform) && player != null)
+            if (player != null)
             {
-                SetState(EnemyState.Run);
+                if (fow.visiblePlayer.Contains(player.transform))
+                {
+                    SetState(EnemyState.Run);
+                }
+            }
+
+            if (mom != null)
+            {
+                if (fow.visiblePlayer.Contains(mom.transform))
+                {
+                    player = mom;
+                    SetState(EnemyState.Run);
+                }
             }
         } while (!_isNewState);
     }

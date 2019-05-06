@@ -12,6 +12,7 @@ public class ScriptParser : MonoBehaviour
 
     GameObject event1;
     GameObject event2;
+    GameObject eventBlock;
 
     bool isEvent1 = false;
     public bool isEvent2 = false;
@@ -25,6 +26,7 @@ public class ScriptParser : MonoBehaviour
         script.Validate();
         event1 = GameObject.Find("Apple_Fresh_event1");
         event2 = GameObject.Find("Apple_Fresh_event2");
+        eventBlock = GameObject.Find("SwichingSection1_2_block");
         StartCoroutine(script.GetCurrentEnumerator(OnLine, SelectChoice, OnChoiceSelected, OnReturn));
     }
 
@@ -97,21 +99,25 @@ public class ScriptParser : MonoBehaviour
             if(event1 == null && event2 == null)
             {
                 isEvent1 = true;
+                Destroy(eventBlock);
                 CommandRun();
             }
             else if(event1 == null&& !event2.GetComponent<SpriteRenderer>().enabled)
             {
                 isEvent1 = true;
+                Destroy(eventBlock);
                 CommandRun();
             }
             else if (event2 == null && !event1.GetComponent<SpriteRenderer>().enabled)
             {
                 isEvent1 = true;
+                Destroy(eventBlock);
                 CommandRun();
             }
             else if((event1 != null && event2 != null)&&(!event1.GetComponent<SpriteRenderer>().enabled&& !event2.GetComponent<SpriteRenderer>().enabled))
             {
                 isEvent1 = true;
+                Destroy(eventBlock);
                 CommandRun();
             }
         }
