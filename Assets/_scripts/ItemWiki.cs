@@ -19,8 +19,8 @@ public class ItemWiki : MonoBehaviour
         wiki.Add("baozi_moldy", new int[] { 0, 20, 0 });
         wiki.Add("baozi_spoiled", new int[] { -2, 20, -15 });
         wiki.Add("macaroon_fresh", new int[] { 5, 15, 10 });
-        wiki.Add("macaroon_moldy", new int[] { 0, 20, 0 });
-        wiki.Add("macaroon_spoiled", new int[] { -2, 20, -3 });
+        wiki.Add("macaroon_moldy", new int[] { 0, 15, 0 });
+        wiki.Add("macaroon_spoiled", new int[] { -2, 5, -3 });
 
         wiki.Add("puddle_clean", new int[] { 10, 0, 5 });
 

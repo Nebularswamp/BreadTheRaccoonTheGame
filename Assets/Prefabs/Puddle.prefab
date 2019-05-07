@@ -78,5 +78,7 @@ MonoBehaviour:
   ifNew: 1
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: You drank water from the puddle. r e f r e s h i n g !
