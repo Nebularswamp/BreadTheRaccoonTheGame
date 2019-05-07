@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         isHurt = false;
+
+//        Time.timeScale = 2f;
     }
 
     void Update()

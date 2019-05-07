@@ -11,8 +11,8 @@ public class EventSection2_2 : MonoBehaviour
     private void Start()
     {
         mainCamera = GameObject.Find("Main Camera");
-        cat1 = GameObject.Find("Stray_Cat_1");
-        cat2 = GameObject.Find("Stray_Cat_2");
+        cat1 = GameObject.Find("Douchebag_Kid1");
+        cat2 = GameObject.Find("Douchebag_Kid2");
         cat1.SetActive(false);
         cat2.SetActive(false);
     }
