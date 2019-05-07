@@ -14,6 +14,7 @@ TagManager:
   - Nail
   - TrashCat
   - Water
+  - Wall
   layers:
   - Default
   - TransparentFX
