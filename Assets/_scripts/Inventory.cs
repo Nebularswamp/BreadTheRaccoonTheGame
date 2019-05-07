@@ -48,7 +48,7 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //HighlightSlot(slotSelected);
+        HighlightSlot(slotSelected);
         //print(slotSelected);
         if (selectedGarbageItem)
         {
@@ -313,10 +313,12 @@ public class Inventory : MonoBehaviour
 
     void HighlightSlot(int slotNumber)
     {
-        print(slotSelected);
-        for (int i = 0; i < inventorySpace; i++)
+        //print("slot selected " + slotSelected);
+        //print("inventory space " + inventorySpace);
+        for (int i = 0; i < slots.Length; i++)
         {
-            if(i == slotSelected - 1)
+            print("INloop");
+            if (i == slotSelected - 1)
             {
                 print("IN");
                 slots[i].GetComponentInParent<CanvasGroup>().alpha = 1f;

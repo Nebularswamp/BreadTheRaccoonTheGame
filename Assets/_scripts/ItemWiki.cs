@@ -30,7 +30,7 @@ public class ItemWiki : MonoBehaviour
         wiki.Add("nails", new int[] { -5, 0, -5 });
         wiki.Add("bull_dog", new int[] { -15, 0, -10 });
         wiki.Add("stray_cat", new int[] { -10, 0, -5 });
-
+        wiki.Add("douchebag_kid", new int[] { -10, 0, -5 });
     }
 
     public static int[] ReturnEffects(string itemName)
