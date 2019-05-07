@@ -340,12 +340,20 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage:
+  - {fileID: 7063789294435871611, guid: af45d8e1ff218744fb1ce35783d03f77, type: 3}
+  - {fileID: 4798059939587496530, guid: afc694321214f9c468e78c5323553d25, type: 3}
+  - {fileID: 2971505722344113170, guid: ba655438bc2d7cd4bbe7c0a8bc04e42d, type: 3}
+  - {fileID: 3677088421958906673, guid: cd42f6f562015764697398302630b7e0, type: 3}
+  - {fileID: 6397216482967563710, guid: 6ec2175202c41b6409bb257b54810b6d, type: 3}
+  - {fileID: 3487051158763732848, guid: b81058fa9276c1d43b662e4862f00c2c, type: 3}
+  eliteGarbage:
   - {fileID: 5817959862667236138, guid: 2110c4a2dd56145bc86bf15ca861904a, type: 3}
   - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
-  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
-  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
-  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
-  - {fileID: 5172326691909082729, guid: dd6a676aa3aa14616b69f0f5f43b106e, type: 3}
-  eliteGarbage: []
+  - {fileID: 3818103125410852121, guid: 27505c07317724b9a925ba1ddfd89161, type: 3}
+  - {fileID: 4364509072679084258, guid: 47b54e0fb8f3045ef9464618741f2bb6, type: 3}
+  - {fileID: 4499152237024987327, guid: f91582df03b0e4944ac77a3a4dfd8c66, type: 3}
+  - {fileID: 6891498803407516810, guid: d3dcff713ac624e3983fde6c79692398, type: 3}
+  - {fileID: 4961073051831764813, guid: 8b65d3481c705c444b86bf1f11ae9f4d, type: 3}
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: 

@@ -15,6 +15,12 @@ public class PlayerBehaviors : MonoBehaviour
     public GameObject darkness_UI;
     public GameObject paranoid_UI;
 
+    public Text healthText;
+    public Text hungerText;
+    public Text sanityText;
+
+    public GameObject effectsPanel;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +34,7 @@ public class PlayerBehaviors : MonoBehaviour
 
         itemsAround = new List<GameObject>();
 
-        InvokeRepeating("ReduceHunger", 0f, 3f);
+        InvokeRepeating("ReduceHunger", 0f, 1.5f);
     }
 
     // Update is called once per frame
@@ -73,6 +79,9 @@ public class PlayerBehaviors : MonoBehaviour
 
     private void Interact()
     {
+        int preHealth = health;
+        int preHunger = hunger;
+        int preSanity = sanity;
         GameObject[] itemsArray = itemsAround.ToArray();
 
         if(itemsArray.Length > 0)
@@ -106,6 +115,19 @@ public class PlayerBehaviors : MonoBehaviour
             itemsArray[i].GetComponent<Item>().TakeEffect();
             itemsArray[i].GetComponent<Item>().RemoveItemFromItemsAround();
         }
+
+        IEnumerator ShowEffects()
+        {
+            effectsPanel.GetComponent<CanvasGroup>().alpha = 1;
+            yield return new WaitForSeconds(1.5f);
+            effectsPanel.GetComponent<CanvasGroup>().alpha = 0;
+        }
+
+        healthText.text = "" + (health - preHealth);
+        hungerText.text = "" + (hunger - preHunger);
+        sanityText.text = "" + (sanity - preSanity);
+
+        StartCoroutine(ShowEffects());
     }
 
     private void PickUp()
