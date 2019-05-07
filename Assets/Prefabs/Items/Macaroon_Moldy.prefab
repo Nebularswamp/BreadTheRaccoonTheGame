@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: the food is molded and you are not lovin it
 --- !u!82 &-8528594868895666462
 AudioSource:
   m_ObjectHideFlags: 0

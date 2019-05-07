@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: a choco pie! sweet!
 --- !u!82 &7314400442202012979
 AudioSource:
   m_ObjectHideFlags: 0

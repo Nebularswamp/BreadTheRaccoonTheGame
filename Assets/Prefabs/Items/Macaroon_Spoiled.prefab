@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: Eating it was a bad idea, it's rotten.
 --- !u!82 &-7793664886222809196
 AudioSource:
   m_ObjectHideFlags: 0

@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: Suspiscious tasting meat bun.
 --- !u!82 &907580830192100641
 AudioSource:
   m_ObjectHideFlags: 0

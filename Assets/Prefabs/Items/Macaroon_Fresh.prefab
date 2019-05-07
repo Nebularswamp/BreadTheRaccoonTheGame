@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: f r e s h f o o d
 --- !u!82 &-2718838533248693045
 AudioSource:
   m_ObjectHideFlags: 0

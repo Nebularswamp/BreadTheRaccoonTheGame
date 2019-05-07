@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: 'the apple is r o t t e n D:'
 --- !u!82 &2287872996551211238
 AudioSource:
   m_ObjectHideFlags: 0

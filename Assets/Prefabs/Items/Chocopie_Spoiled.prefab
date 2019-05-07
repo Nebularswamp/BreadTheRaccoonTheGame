@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: it's probably rotten
 --- !u!82 &-8166900222151962122
 AudioSource:
   m_ObjectHideFlags: 0

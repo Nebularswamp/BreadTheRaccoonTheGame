@@ -128,8 +128,10 @@ MonoBehaviour:
   ifNew: 0
   usefulItems: []
   garbage: []
+  eliteGarbage: []
   inventory: {fileID: 0}
   relatedGarbage: {fileID: 0}
+  memory: it tasted like rotten meat
 --- !u!82 &-6485641477813635433
 AudioSource:
   m_ObjectHideFlags: 0
