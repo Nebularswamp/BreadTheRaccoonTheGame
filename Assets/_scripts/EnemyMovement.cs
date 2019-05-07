@@ -167,7 +167,7 @@ public class EnemyMovement : MonoBehaviour
             yield return null;
             if (_isNewState) break;
             // Action
-            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Hurt"))
+            if (myAnimatorNormalizedTime >= 1 && myAnimatorStateInfo.IsName("Hurt Tree"))
             {
                 SetState(EnemyState.Idle);
             }
@@ -175,6 +175,7 @@ public class EnemyMovement : MonoBehaviour
 
         //End
         ani.SetBool("isHurt", false);
+        yield return new WaitForSeconds(1.5f);
         enemyHit = false;
     }
 

@@ -48,7 +48,8 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //print(inventorySpace);
+        //HighlightSlot(slotSelected);
+        //print(slotSelected);
         if (selectedGarbageItem)
         {
             print(selectedGarbageItem);
@@ -132,6 +133,8 @@ public class Inventory : MonoBehaviour
                     inventory[i] = null;
                     UpdateInventory();
                     instruction.SetActive(false);
+                    slotSelected = 0;
+                    inventoryOpened = false;
                 }
             }
         }
@@ -161,6 +164,7 @@ public class Inventory : MonoBehaviour
                     UpdateInventory();
                     instruction.SetActive(false);
                     inventoryOpened = false;
+                    slotSelected = 0;
                 }
             }
         }
@@ -305,5 +309,26 @@ public class Inventory : MonoBehaviour
         {
             Destroy(item.gameObject);
         }
+    }
+
+    void HighlightSlot(int slotNumber)
+    {
+        print(slotSelected);
+        for (int i = 0; i < inventorySpace; i++)
+        {
+            if(i == slotSelected - 1)
+            {
+                print("IN");
+                slots[i].GetComponentInParent<CanvasGroup>().alpha = 1f;
+            }
+            else
+            {
+                slots[i].GetComponentInParent<CanvasGroup>().alpha = 0.4f;
+            }
+        }
+        /*if(slotSelected > 0)
+        {
+            slots[slotNumber - 1].GetComponentInParent<CanvasGroup>().alpha = 1;
+        }*/
     }
 }
