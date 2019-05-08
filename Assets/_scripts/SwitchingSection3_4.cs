@@ -17,6 +17,13 @@ public class SwitchingSection3_4 : MonoBehaviour
         if (collision.tag == "Player")
         {
             player.transform.position = new Vector3(-10f, 1f, 0f);
+            foreach (GameObject item in Inventory.inventory)
+            {
+                if (item)
+                {
+                    DontDestroyOnLoad(item);
+                }
+            }
             SceneManager.LoadScene("Section4_Survival");
         }
     }
