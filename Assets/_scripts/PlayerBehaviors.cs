@@ -23,9 +23,9 @@ public class PlayerBehaviors : MonoBehaviour
 
     void Start()
     {
-        health = 70;
-        hunger = 70;
-        sanity = 70;
+        health = 100;
+        hunger = 50;
+        sanity = 100;
 
         bleed_UI.GetComponent<Image>().enabled = false;
         paranoid_UI.GetComponent<Image>().enabled = false;
@@ -81,7 +81,7 @@ public class PlayerBehaviors : MonoBehaviour
         int preSanity = sanity;
         GameObject[] itemsArray = itemsAround.ToArray();
 
-        if(itemsArray.Length > 0)
+        /*if(itemsArray.Length > 0)
         {
             if (itemsArray[0].GetComponent<Item>().memory.Length > 0)
             {
@@ -105,7 +105,7 @@ public class PlayerBehaviors : MonoBehaviour
 
             yield return new WaitForSeconds(4f);
             mem.GetComponent<CanvasGroup>().alpha = 0;
-        }
+        }*/
 
         for (int i = 0; i < itemsArray.Length; i++)
         {
@@ -113,7 +113,7 @@ public class PlayerBehaviors : MonoBehaviour
             itemsArray[i].GetComponent<Item>().RemoveItemFromItemsAround();
         }
 
-        IEnumerator ShowEffects()
+        /*IEnumerator ShowEffects()
         {
             effectsPanel.GetComponent<CanvasGroup>().alpha = 1;
             yield return new WaitForSeconds(1.5f);
@@ -124,7 +124,7 @@ public class PlayerBehaviors : MonoBehaviour
         hungerText.text = "" + (hunger - preHunger);
         sanityText.text = "" + (sanity - preSanity);
 
-        StartCoroutine(ShowEffects());
+        StartCoroutine(ShowEffects());*/
     }
 
     private void PickUp()

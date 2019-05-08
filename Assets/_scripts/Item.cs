@@ -128,6 +128,47 @@ public class Item : MonoBehaviour
 
     public void TakeEffect()
     {
+        int preHealth = PlayerBehaviors.health;
+        int preHunger = PlayerBehaviors.hunger;
+        int preSanity = PlayerBehaviors.sanity;
+
+
+
+        if (memory.Length > 0)
+        {
+            StartCoroutine(ShowMemory());
+        }
+    
+
+        IEnumerator ShowMemory()
+        {
+            GameObject mem = GameObject.Find("Memory");
+            GameObject memContent = GameObject.Find("MemoryContent");
+            mem.GetComponent<CanvasGroup>().alpha = 1;
+            string text = memory;
+            memContent.GetComponent<Text>().text = null;
+
+            foreach (char letter in text)
+            {
+                memContent.GetComponent<Text>().text += letter;
+                yield return new WaitForSeconds(0.1f);
+            }
+
+            yield return new WaitForSeconds(3f);
+            mem.GetComponent<CanvasGroup>().alpha = 0;
+        }
+
+        GameObject effectsPanel = GameObject.Find("Effects");
+        GameObject healthText = GameObject.Find("HealthText");
+        GameObject hungerText = GameObject.Find("HungerText");
+        GameObject sanityText = GameObject.Find("SanityText");
+
+        IEnumerator ShowEffects()
+        {
+            effectsPanel.GetComponent<CanvasGroup>().alpha = 1;
+            yield return new WaitForSeconds(1.5f);
+            effectsPanel.GetComponent<CanvasGroup>().alpha = 0;
+        }
 
         if (gameObject.CompareTag("Food"))
         {
@@ -183,6 +224,12 @@ public class Item : MonoBehaviour
 
             //DestroyItem();
         }
+
+        healthText.GetComponent<Text>().text = "" + (PlayerBehaviors.health - preHealth);
+        hungerText.GetComponent<Text>().text = "" + (PlayerBehaviors.hunger - preHunger);
+        sanityText.GetComponent<Text>().text = "" + (PlayerBehaviors.sanity - preSanity);
+
+        StartCoroutine(ShowEffects());
     }
 
     public void AddToInventory()
@@ -237,7 +284,7 @@ public class Item : MonoBehaviour
         HideItem();
         GetComponent<AudioSource>().Play();
         print("playaudio");
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(10f);
         DestroyItem();
     }
 
