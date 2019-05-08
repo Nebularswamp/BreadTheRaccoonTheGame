@@ -21,7 +21,8 @@ public class ScriptParser : MonoBehaviour
     {
         isLoading = true;
         ScriptLocator.mom.GetComponent<PlayerMovement>().isScripting = true;
-        script = Script.FromSource("Assets/_scripts/CutSceneScripts/scene1.sce");
+//        script = Script.FromSource("Assets/_scripts/CutSceneScripts/scene1.sce");
+        script = Script.FromSource("Assets/scene1.sce");
         script.Prime();
         script.Validate();
         event1 = GameObject.Find("Apple_Fresh_event1");

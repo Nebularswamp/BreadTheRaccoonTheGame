@@ -21,8 +21,6 @@ public class PlayerBehaviors : MonoBehaviour
 
     public GameObject effectsPanel;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         health = 70;
@@ -73,11 +71,6 @@ public class PlayerBehaviors : MonoBehaviour
         else
         {
             paranoid_UI.GetComponent<Image>().enabled = false;
-        }
-
-        if(health <= 0)
-        {
-
         }
     }
 
