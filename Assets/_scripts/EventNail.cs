@@ -12,7 +12,7 @@ public class EventNail : MonoBehaviour
             ScriptLocator.textDisplayer.SetSay("Mom", "What did I tell you?");
             ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = true;
             ScriptLocator.player.GetComponent<PlayerMovement>().movement = Vector3.zero;
-            PlayerMovement.isHurt = true;
+//            PlayerMovement.isHurt = true;
             StartCoroutine(HideBubbleTextCo());
         }
     }
@@ -21,7 +21,7 @@ public class EventNail : MonoBehaviour
     {
         yield return new WaitForSeconds(2.0f);
         ScriptLocator.textDisplayer.HideBubbleText();
-        PlayerMovement.isHurt = false;
+//        PlayerMovement.isHurt = false;
         ScriptLocator.player.GetComponent<PlayerMovement>().isScripting = false;
     }
 }
