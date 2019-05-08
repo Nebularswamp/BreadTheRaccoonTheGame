@@ -21,6 +21,13 @@ public class EventSection2_3 : MonoBehaviour
             player.transform.position = new Vector3(0f, 15f, 0f);
             DontDestroyOnLoad(player);
             DontDestroyOnLoad(canvas);
+            foreach(GameObject item in Inventory.inventory)
+            {
+                if (item)
+                {
+                    DontDestroyOnLoad(item);
+                }
+            }
             SceneManager.LoadScene("Section3_Chase");
         }
     }
