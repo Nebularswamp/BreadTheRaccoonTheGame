@@ -23,6 +23,8 @@ public class EventSection2_2 : MonoBehaviour
         {
             cat1.SetActive(true);
             cat2.SetActive(true);
+            cat1.GetComponent<BoxCollider2D>().enabled = false;
+            cat2.GetComponent<BoxCollider2D>().enabled = false;
             mainCamera.transform.position = cat1.transform.position + Vector3.up*4f;
             Destroy(gameObject);
         }

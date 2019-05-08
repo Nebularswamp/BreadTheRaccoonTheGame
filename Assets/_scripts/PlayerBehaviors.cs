@@ -50,9 +50,9 @@ public class PlayerBehaviors : MonoBehaviour
             PickUp();
         }
 
-        print(PlayerMovement.isHurt);
+//        print(PlayerMovement.isHurt);
         //print(itemsAround.Count);
-        print("health: " + health);
+  //      print("health: " + health);
         //print("hunger: " + hunger);
         //print("sanity: " + sanity);
         //print(inventorySpace);
@@ -75,6 +75,10 @@ public class PlayerBehaviors : MonoBehaviour
             paranoid_UI.GetComponent<Image>().enabled = false;
         }
 
+        if(health <= 0)
+        {
+
+        }
     }
 
     private void Interact()
