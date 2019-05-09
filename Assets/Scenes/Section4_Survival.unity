@@ -73288,6 +73288,88 @@ Transform:
   m_Father: {fileID: 1676832634}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &946006749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946006752}
+  - component: {fileID: 946006751}
+  - component: {fileID: 946006750}
+  m_Layer: 0
+  m_Name: Puddle (3)
+  m_TagString: Water
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &946006750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946006749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e7d977d7ce34f0582e31e592ac24b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: puddle_clean
+  itemSprite: {fileID: 0}
+  canPickUp: 0
+  content: []
+  contentNumber: 
+  ifNew: 0
+  usefulItems: []
+  garbage: []
+  eliteGarbage: []
+  inventory: {fileID: 0}
+  relatedGarbage: {fileID: 0}
+  memory: 
+--- !u!61 &946006751
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946006749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.34972978, y: -0.4590206}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5828829, y: 1.7431755}
+  m_EdgeRadius: 0
+--- !u!4 &946006752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946006749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.76, y: 22.03, z: -66.219925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &950487419
 GameObject:
   m_ObjectHideFlags: 0
@@ -73632,6 +73714,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1041073652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041073655}
+  - component: {fileID: 1041073654}
+  - component: {fileID: 1041073653}
+  m_Layer: 0
+  m_Name: Puddle (2)
+  m_TagString: Water
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1041073653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041073652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e7d977d7ce34f0582e31e592ac24b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: puddle_clean
+  itemSprite: {fileID: 0}
+  canPickUp: 0
+  content: []
+  contentNumber: 
+  ifNew: 0
+  usefulItems: []
+  garbage: []
+  eliteGarbage: []
+  inventory: {fileID: 0}
+  relatedGarbage: {fileID: 0}
+  memory: 
+--- !u!61 &1041073654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041073652}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.34972978, y: -0.4590206}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5828829, y: 1.7431755}
+  m_EdgeRadius: 0
+--- !u!4 &1041073655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041073652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.72, y: 8.39, z: -66.219925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043668365
 GameObject:
   m_ObjectHideFlags: 0
@@ -76434,6 +76598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bull_dog (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7639785090219916011, guid: 1f85478c553ee4561ba407553f509e2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7639785090219916000, guid: 1f85478c553ee4561ba407553f509e2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77564,6 +77733,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8445335972971040297, guid: 838223ae7d4b9412b9f6b06e02c693da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445335972223910743, guid: 838223ae7d4b9412b9f6b06e02c693da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 13309872, guid: 838223ae7d4b9412b9f6b06e02c693da, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -77571,16 +77750,6 @@ PrefabInstance:
     - target: {fileID: 1581415943, guid: 838223ae7d4b9412b9f6b06e02c693da, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8445335972223910743, guid: 838223ae7d4b9412b9f6b06e02c693da,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8445335972971040297, guid: 838223ae7d4b9412b9f6b06e02c693da,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 838223ae7d4b9412b9f6b06e02c693da, type: 3}

@@ -11,6 +11,7 @@ public class Inventory : MonoBehaviour
 
     public static GameObject instruction;
     public static GameObject trashGame;
+    public static GameObject escButton;
 
     //public static Sprite[] inventoryItemImage;
     //public static string[] inventoryItemName;
@@ -21,9 +22,11 @@ public class Inventory : MonoBehaviour
     public static bool trashGameOpened;
     public static bool trashSelected;
 
-    int slotSelected;
+    public static int slotSelected;
     public static GameObject selectedGarbageItem;
     public static GameObject GarbageBinOpened;
+
+    public static bool showingMemory;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +35,10 @@ public class Inventory : MonoBehaviour
 
         instruction = GameObject.Find("Instructions");
         trashGame = GameObject.Find("InsideTrash");
+        escButton = GameObject.Find("ESC");
 
         HideInstruction();
+        HideESC();
         CloseTrashGame();
         
         //inventoryItemImage = new Sprite[inventorySpace];
@@ -48,6 +53,15 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(inventoryOpened || trashGameOpened)
+        {
+            ShowESC();
+        }
+        else
+        {
+            HideESC();
+        }
+
         HighlightSlot(slotSelected);
         //print(slotSelected);
         if (selectedGarbageItem)
@@ -230,6 +244,16 @@ public class Inventory : MonoBehaviour
         instruction.SetActive(false);
     }
 
+    public static void ShowESC()
+    {
+        escButton.SetActive(true);
+    }
+
+    public static void HideESC()
+    {
+        escButton.SetActive(false);
+    }
+
     public static void OpenTrashGame()
     {
         trashGame.GetComponent<Image>().enabled = true;
@@ -317,10 +341,10 @@ public class Inventory : MonoBehaviour
         //print("inventory space " + inventorySpace);
         for (int i = 0; i < slots.Length; i++)
         {
-            print("INloop");
+            //print("INloop");
             if (i == slotSelected - 1)
             {
-                print("IN");
+                //print("IN");
                 slots[i].GetComponentInParent<CanvasGroup>().alpha = 1f;
             }
             else
@@ -328,9 +352,5 @@ public class Inventory : MonoBehaviour
                 slots[i].GetComponentInParent<CanvasGroup>().alpha = 0.4f;
             }
         }
-        /*if(slotSelected > 0)
-        {
-            slots[slotNumber - 1].GetComponentInParent<CanvasGroup>().alpha = 1;
-        }*/
     }
 }

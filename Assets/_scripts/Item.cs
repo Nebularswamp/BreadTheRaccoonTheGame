@@ -142,11 +142,17 @@ public class Item : MonoBehaviour
 
         IEnumerator ShowMemory()
         {
+            if (Inventory.showingMemory)
+            {
+                yield break;
+            }
+            Inventory.showingMemory = true;
+
             GameObject mem = GameObject.Find("Memory");
             GameObject memContent = GameObject.Find("MemoryContent");
+            memContent.GetComponent<Text>().text = null;
             mem.GetComponent<CanvasGroup>().alpha = 1;
             string text = memory;
-            memContent.GetComponent<Text>().text = null;
 
             foreach (char letter in text)
             {
@@ -156,6 +162,8 @@ public class Item : MonoBehaviour
 
             yield return new WaitForSeconds(3f);
             mem.GetComponent<CanvasGroup>().alpha = 0;
+
+            Inventory.showingMemory = false;
         }
 
         GameObject effectsPanel = GameObject.Find("Effects");

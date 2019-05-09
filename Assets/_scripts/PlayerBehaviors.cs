@@ -32,7 +32,7 @@ public class PlayerBehaviors : MonoBehaviour
 
         itemsAround = new List<GameObject>();
 
-        InvokeRepeating("ReduceHunger", 0f, 1.5f);
+        InvokeRepeating("ReduceHunger", 0f, 2.5f);
     }
 
     // Update is called once per frame

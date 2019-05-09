@@ -8,15 +8,19 @@ public class Garbage : MonoBehaviour, IDragHandler, IBeginDragHandler, IPointerC
 {
     public GameObject relatedItem;
 
+    public Inventory inventory;
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         Inventory.inventoryOpened = false;
+        Inventory.slotSelected = 0;
         if (gameObject.CompareTag("Item"))
         {
             Inventory.ShowInstruction();
             Inventory.selectedGarbageItem = null;
             Inventory.selectedGarbageItem = relatedItem;
             Inventory.trashSelected = true;
+
             //print("selected");
         }
         else
@@ -37,6 +41,7 @@ public class Garbage : MonoBehaviour, IDragHandler, IBeginDragHandler, IPointerC
     public void OnPointerClick(PointerEventData eventData)
     {
         Inventory.inventoryOpened = false;
+        Inventory.slotSelected = 0;
         if (gameObject.CompareTag("Item"))
         {
             Inventory.ShowInstruction();
@@ -55,6 +60,8 @@ public class Garbage : MonoBehaviour, IDragHandler, IBeginDragHandler, IPointerC
     // Start is called before the first frame update
     void Start()
     {
+        inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
+
         if (relatedItem)
         {
             print(relatedItem);
